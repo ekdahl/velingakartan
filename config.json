@@ -3,37 +3,71 @@
 
 	"dataPath": "../../data",
 
-	"layers": [
+	"mapCenter": [ 58.1029, 13.9669 ],
+	"mapZoom": 14,
+
+	"mapLayers": [
 		{
-			"id": "lm-topo",
-			"name": "Lantmäteriet topo",
+			"id": "topowebb",
+			"name": "Karta",
 			"type": "xyz",
 			"url": "https://minkarta.lantmateriet.se/map/topowebbcache?layer=topowebb&tilematrixset=3857&Service=WMTS&Request=GetTile&TileMatrix={z}&TileCol={x}&TileRow={y}",
 			"options": {
 				"attribution": "© Lantmäteriet",
-				"opacity": 1,
-				"zIndex": 10
+				"opacity": 1
 			},
 			"visible": true
 		},
 		{
-			"id": "laga1827",
-			"name": "Laga skifte 1827",
+			"id": "topowebb_nedtonad",
+			"name": "Nedtonad karta",
 			"type": "xyz",
-			"url": "./tiles/laga1827/{z}/{x}/{y}.webp",
+			"url": "https://minkarta.lantmateriet.se/map/topowebbcache?layer=topowebb_nedtonad&tilematrixset=3857&Service=WMTS&Request=GetTile&TileMatrix={z}&TileCol={x}&TileRow={y}",
 			"options": {
-				"opacity": 0.6,
-				"zIndex": 20
+				"attribution": "© Lantmäteriet",
+				"opacity": 1
 			},
 			"visible": false
 		},
 		{
+			"id": "storskifte",
+			"name": "Storskifte",
+			"type": "xyz",
+			"url": "./tiles/storskifte/{z}/{x}/{y}.webp",
+			"options": {
+				"opacity": 0.8
+			},
+			"visible": false
+		},
+		{
+			"id": "lagaskifte",
+			"name": "Laga skifte",
+			"type": "xyz",
+			"url": "./tiles/lagaskifte/{z}/{x}/{y}.webp",
+			"options": {
+				"opacity": 0.8
+			},
+			"visible": false
+		},
+		{
+			"id": "flygbild_1960",
 			"type": "wms",
-			"url": "...",
+			"name": "Flygbild ca 1960",
+			"url": "https://minkarta.lantmateriet.se/map/historiskaortofoto",
 			"options": {
 				"layers": "OI.Histortho_60",
-				"format": "image/png",
-				"transparent": true
+				"attribution": "© Lantmäteriet"
+			},
+			"visible": false
+		},
+		{
+			"id": "flygbild_1975",
+			"type": "wms",
+			"name": "Flygbild ca 1975",
+			"url": "https://minkarta.lantmateriet.se/map/historiskaortofoto",
+			"options": {
+				"layers": "OI.Histortho_75",
+				"attribution": "© Lantmäteriet"
 			},
 			"visible": false
 		}
