@@ -13,21 +13,10 @@
 			"type": "xyz",
 			"url": "https://minkarta.lantmateriet.se/map/topowebbcache?layer=topowebb&tilematrixset=3857&Service=WMTS&Request=GetTile&TileMatrix={z}&TileCol={x}&TileRow={y}",
 			"options": {
-				"attribution": "© Lantmäteriet",
+				"attribution": "Lantmäteriet",
 				"opacity": 1
 			},
 			"visible": true
-		},
-		{
-			"id": "topowebb_nedtonad",
-			"name": "Nedtonad karta",
-			"type": "xyz",
-			"url": "https://minkarta.lantmateriet.se/map/topowebbcache?layer=topowebb_nedtonad&tilematrixset=3857&Service=WMTS&Request=GetTile&TileMatrix={z}&TileCol={x}&TileRow={y}",
-			"options": {
-				"attribution": "© Lantmäteriet",
-				"opacity": 1
-			},
-			"visible": false
 		},
 		{
 			"id": "storskifte",
@@ -40,12 +29,44 @@
 			"visible": false
 		},
 		{
-			"id": "lagaskifte",
-			"name": "Laga skifte",
+			"id": "laga_skifte",
+			"name": "Laga skifte 1857",
 			"type": "xyz",
 			"url": "./tiles/lagaskifte/{z}/{x}/{y}.webp",
 			"options": {
 				"opacity": 0.8
+			},
+			"visible": false
+		},
+		{
+			"id": "ekonomiska_kartan",
+			"name": "Ekonomiska kartan",
+			"type": "xyz",
+			"url": "./tiles/ekonomiska_kartan/{z}/{x}/{y}.webp",
+			"options": {
+				"opacity": 0.8
+			},
+			"visible": false
+		},
+		{
+			"id": "topowebb_nedtonad",
+			"name": "Nedtonad karta",
+			"type": "xyz",
+			"url": "https://minkarta.lantmateriet.se/map/topowebbcache?layer=topowebb_nedtonad&tilematrixset=3857&Service=WMTS&Request=GetTile&TileMatrix={z}&TileCol={x}&TileRow={y}",
+			"options": {
+				"attribution": "Lantmäteriet",
+				"opacity": 1
+			},
+			"visible": false
+		},
+		{
+			"id": "flygbild",
+			"type": "wms",
+			"name": "Flygbild",
+			"url": "https://minkarta.lantmateriet.se/map/ortofoto",
+			"options": {
+				"layers": "Ortofoto_0.5,Ortofoto_0.4,Ortofoto_0.25,Ortofoto_0.16",
+				"attribution": "Lantmäteriet"
 			},
 			"visible": false
 		},
@@ -56,7 +77,7 @@
 			"url": "https://minkarta.lantmateriet.se/map/historiskaortofoto",
 			"options": {
 				"layers": "OI.Histortho_60",
-				"attribution": "© Lantmäteriet"
+				"attribution": "Lantmäteriet"
 			},
 			"visible": false
 		},
@@ -67,7 +88,18 @@
 			"url": "https://minkarta.lantmateriet.se/map/historiskaortofoto",
 			"options": {
 				"layers": "OI.Histortho_75",
-				"attribution": "© Lantmäteriet"
+				"attribution": "Lantmäteriet"
+			},
+			"visible": false
+		},
+		{
+			"id": "flygbild_1995_2005",
+			"type": "wms",
+			"name": "Flygbild 1995-2005",
+			"url": "https://minkarta.lantmateriet.se/map/historiskaortofoto",
+			"options": {
+				"layers": "Ortho_1993,Ortho_1994,Ortho_1995,Ortho_1996,Ortho_1997,Ortho_1998,Ortho_1999,Ortho_2000,Ortho_2001,Ortho_2002,Ortho_2003,Ortho_2004,Ortho_2005",
+				"attribution": "Lantmäteriet"
 			},
 			"visible": false
 		}
