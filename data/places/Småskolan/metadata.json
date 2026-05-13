@@ -1,0 +1,13 @@
+{
+  "id": "2",
+  "names": ["Småskolan"],
+  "type": "Skola",
+  "places": [
+    {
+      "lat": 13.9666794,
+      "lon": 58.1042016,
+      "from": null,
+      "to": null
+    }
+  ]
+}
