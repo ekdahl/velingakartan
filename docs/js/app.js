@@ -6,7 +6,11 @@ async function boot() {
   }
 
   try {
-    const response = await fetch('./config.json');
+    // Construct config path that works both locally and on GitHub Pages
+    // Get the directory containing index.html and fetch config.json from there
+    const configPath = new URL('config.json', document.location).href;
+    
+    const response = await fetch(configPath);
     if (!response.ok) throw new Error(`Failed to fetch config: ${response.status}`);
     const config = await response.json();
 
