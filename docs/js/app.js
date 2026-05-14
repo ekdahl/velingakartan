@@ -50,62 +50,17 @@ async function startApp(config) {
     });
   }
 
-  // Add custom layer control with opacity sliders
-  createLayerControlWithOpacity(map, layerList);
+  // Add built-in Leaflet layer control
+  const baseLayers = {};
+  const overlayLayers = {};
+  
+  layerList.forEach(({ name, layer }) => {
+    overlayLayers[name] = layer;
+  });
+  
+  L.control.layers(baseLayers, overlayLayers, { position: 'topright' }).addTo(map);
 
   return map;
-}
-
-function createLayerControlWithOpacity(map, layerList) {
-  const control = L.Control.extend({
-    onAdd: function(map) {
-      const container = L.DomUtil.create('div', 'leaflet-control-layers leaflet-control');
-
-      layerList.forEach(({ name, layer, config }) => {
-        const layerItem = L.DomUtil.create('div', 'layer-item', container);
-
-        // Layer title on first line
-        const title = L.DomUtil.create('div', 'layer-title', layerItem);
-        title.textContent = name;
-
-        // Checkbox and slider on second line
-        const controls = L.DomUtil.create('div', 'layer-controls', layerItem);
-
-        // Checkbox
-        const checkbox = L.DomUtil.create('input', '', controls);
-        checkbox.type = 'checkbox';
-        checkbox.id = `layer-${name}`;
-        checkbox.checked = config.visible;
-
-        checkbox.addEventListener('change', (e) => {
-          if (e.target.checked) {
-            layer.addTo(map);
-          } else {
-            map.removeLayer(layer);
-          }
-        });
-
-        // Opacity slider
-        const slider = L.DomUtil.create('input', '', controls);
-        slider.type = 'range';
-        slider.min = '0';
-        slider.max = '100';
-        slider.value = (config.options?.opacity ?? 1) * 100;
-        slider.style.marginLeft = '8px';
-
-        slider.addEventListener('input', (e) => {
-          const opacity = e.target.value / 100;
-          layer.setOpacity(opacity);
-        });
-
-        L.DomEvent.disableClickPropagation(layerItem);
-      });
-
-      return container;
-    }
-  });
-
-  new control({ position: 'topright' }).addTo(map);
 }
 
 function createLayer(cfg) {

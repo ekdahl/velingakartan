@@ -5,10 +5,12 @@
 }
 
 .leaflet-control-layers {
-	box-shadow: var(--bs-box-shadow);
 	background: var(--bs-body-bg);
 	border-radius: var(--bs-border-radius);
-	padding: 0.5rem;
+}
+
+.leaflet-control-layers-expanded {
+	color: var(--bs-body-color);
 }
 
 .leaflet-container {
