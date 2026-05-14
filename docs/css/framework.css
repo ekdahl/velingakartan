@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap');
+
+:root {
+	--bs-body-font-family: 'Fondamento', serif;
+}
+
+.leaflet-control-layers {
+	box-shadow: var(--bs-box-shadow);
+	background: var(--bs-body-bg);
+	border-radius: var(--bs-border-radius);
+	padding: 0.5rem;
+}
+
+.leaflet-container {
+	font-family: var(--bs-body-font-family);
+}
+
+.leaflet-bar a {
+	background-color: var(--bs-body-bg);
+	border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color);
+	color: var(--bs-body-color);
+}
+
+.leaflet-bar a:hover, .leaflet-bar a:focus {
+	background-color: var(--bs-highlight-bg);
+}
+
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+	border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color);
+}
