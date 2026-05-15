@@ -4,8 +4,8 @@
   "type": "Backstuga",
   "places": [
     {
-      "lat": 13.9663388,
-      "lon": 58.1039267,
+      "lat": 58.1039267,
+      "lon": 13.9663388,
       "from": null,
       "to": null
     }

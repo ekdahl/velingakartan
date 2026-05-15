@@ -58,6 +58,44 @@ async function startApp(config) {
     overlayLayers[name] = layer;
   });
   
+  // Load and add GeoJSON places
+  try {
+    const geojsonPath = new URL('geojson/places.geojson', document.location).href;
+    const geojsonResponse = await fetch(geojsonPath);
+    if (geojsonResponse.ok) {
+      const geojsonData = await geojsonResponse.json();
+      const placesLayer = L.geoJSON(geojsonData, {
+        pointToLayer: function(feature, latlng) {
+          return L.circleMarker(latlng, {
+            radius: 6,
+            fillColor: '#3388ff',
+            color: '#fff',
+            weight: 2,
+            opacity: 1,
+            fillOpacity: 0.8
+          });
+        },
+        onEachFeature: function(feature, layer) {
+          if (feature.properties) {
+            const props = feature.properties;
+            const fromYear = props.fran ?? 'okänt';
+            const toYear = props.till ?? 'okänt';
+            const popupContent = `
+              <strong>${props.namn}</strong><br>
+              Typ: ${props.typ}<br>
+              År: ${fromYear}-${toYear}
+            `;
+            layer.bindPopup(popupContent);
+          }
+        }
+      });
+      overlayLayers['Platser'] = placesLayer;
+      placesLayer.addTo(map);
+    }
+  } catch (error) {
+    console.warn('Could not load GeoJSON:', error);
+  }
+  
   L.control.layers(baseLayers, overlayLayers, { position: 'topright' }).addTo(map);
 
   return map;

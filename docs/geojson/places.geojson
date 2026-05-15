@@ -1,0 +1,39 @@
+﻿{
+    "features":  [
+                     {
+                         "properties":  {
+                                            "namn":  "Nymans stuga",
+                                            "typ":  "Backstuga",
+                                            "id":  "1",
+                                            "fran":  null,
+                                            "till":  null
+                                        },
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              13.9663388,
+                                                              58.1039267
+                                                          ],
+                                          "type":  "Point"
+                                      }
+                     },
+                     {
+                         "properties":  {
+                                            "namn":  "SmÃ¥skolan",
+                                            "typ":  "Skola",
+                                            "id":  "2",
+                                            "fran":  null,
+                                            "till":  null
+                                        },
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              13.9666794,
+                                                              58.1042016
+                                                          ],
+                                          "type":  "Point"
+                                      }
+                     }
+                 ],
+    "type":  "FeatureCollection"
+}

@@ -4,8 +4,8 @@
   "type": "Skola",
   "places": [
     {
-      "lat": 13.9666794,
-      "lon": 58.1042016,
+      "lat": 58.1042016,
+      "lon": 13.9666794,
       "from": null,
       "to": null
     }
