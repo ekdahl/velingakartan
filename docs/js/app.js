@@ -57,6 +57,23 @@ async function startApp(config) {
   layerList.forEach(({ name, layer }) => {
     overlayLayers[name] = layer;
   });
+
+  const placeIconMap = {
+    Kyrka: 'church.svg',
+    Backstuga: 'house.svg',
+    Torp: 'house-chimney.svg',
+    'Gård': 'building-wheat.svg'
+  };
+
+  function getPlaceIcon(type) {
+    const iconFile = placeIconMap[type] || 'house.svg';
+    return L.icon({
+      iconUrl: new URL(`img/map-markers/${iconFile}`, document.location).href,
+      iconSize: [32, 32],
+      iconAnchor: [16, 32],
+      popupAnchor: [0, -32]
+    });
+  }
   
   // Load and add GeoJSON places
   try {
@@ -66,13 +83,10 @@ async function startApp(config) {
       const geojsonData = await geojsonResponse.json();
       const placesLayer = L.geoJSON(geojsonData, {
         pointToLayer: function(feature, latlng) {
-          return L.circleMarker(latlng, {
-            radius: 6,
-            fillColor: '#3388ff',
-            color: '#fff',
-            weight: 2,
-            opacity: 1,
-            fillOpacity: 0.8
+          const typ = feature.properties?.typ;
+          return L.marker(latlng, {
+            icon: getPlaceIcon(typ),
+            riseOnHover: true
           });
         },
         onEachFeature: function(feature, layer) {
