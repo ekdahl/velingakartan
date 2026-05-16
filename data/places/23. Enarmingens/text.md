@@ -1,0 +1,7 @@
+# 23. Enarmingens
+
+Backstuga vid vägen mot Kilåsen. Skylt uppsatt i maj 1989.
+Delar av husgrunden finns idag kvar, liksom en inrasad jordkällare. På andra sidan vägen finns en stensatt brunn som troligen betjänat såväl boende i Enarmingens som boende på grannstället Vinnemossen även kallat Tombo, se nr 21. 
+Enarmingens finns upptaget som backstuga på en karta från 1877- 1882.
+Förbi stället och över mossarna går en fädrev som är cirka 5 meter bred och upptagen som allmänningsmark på gamla kartor. Den går under namnet Valldreven. Denna användes då byns kreatur skulle drivas upp för att beta på mossarna och i skogen. 
+Backstugan låg högt och landskapet var förr betydligt mer öppet än det är idag. Lokal hörsägen berättar om en man som bara hade en brukbar arm och som bodde i backstugan. Hans uppgift var att hålla uppsikt över byns betande kreatur ute på mossen. När kreaturen sökte bete i skogen kom de, då och då, ner till skogskanten för att dricka i bäcken. Även över vattningsstället hade man god uppsikt från Enarmingens lilla stuga.

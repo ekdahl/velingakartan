@@ -1,2 +1,0 @@
-Av socknen bekostad stuga på Velinga Backgården ”Prästegården”. Uppfördes på 1860-talet. Den revs 1917. Skylt uppsatt i maj 1989 vid västra vägkanten mitt emot Velinga kyrkogård.
-Platsen där huset en gång låg är idag åkermark. Backstugan var liten och hade torvtak. Den finns med på ett foto från 1904, taget från Mossagårdens trädgård mot kyrkan.

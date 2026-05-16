@@ -1,0 +1,3 @@
+# 163. Prästasten
+
+En sägen gör gällande att en präst förolyckats vid Prästastenen vid fall från en hästskjuts. Stenen är belägen vid Sörvägen och den återfanns av Elias Andersson som också förmedlat den gamla sägnen. I kyrkoböckerna kan dock inga uppgifter hittas som bekräftar historien.

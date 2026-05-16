@@ -1,7 +1,10 @@
 {
   "id": "2",
-  "names": ["Småskolan"],
-  "type": "Skola",
+  "names": [
+    "2. Småskolan"
+  ],
+  "type": null,
+  "hasSign": true,
   "places": [
     {
       "lat": 58.1042016,

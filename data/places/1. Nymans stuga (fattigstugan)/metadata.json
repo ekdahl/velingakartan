@@ -1,7 +1,10 @@
 {
   "id": "1",
-  "names": ["Nymans stuga", "Fattigstugan"],
-  "type": "Backstuga",
+  "names": [
+    "1. Nymans stuga (fattigstugan)"
+  ],
+  "type": null,
+  "hasSign": true,
   "places": [
     {
       "lat": 58.1039267,

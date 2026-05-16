@@ -1,0 +1,16 @@
+{
+  "id": "5",
+  "names": [
+    "5. Sanders"
+  ],
+  "type": null,
+  "hasSign": true,
+  "places": [
+    {
+      "lat": 58.1023428,
+      "lon": 13.9679118,
+      "from": null,
+      "to": null
+    }
+  ]
+}
