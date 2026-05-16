@@ -59,14 +59,19 @@ async function startApp(config) {
   });
 
   const placeIconMap = {
-    Kyrka: 'church.svg',
-    Backstuga: 'house.svg',
-    Torp: 'house-chimney.svg',
-    'Gård': 'building-wheat.svg'
+    'kyrka': 'church.svg',
+    'backstuga': 'house.svg',
+    'torp': 'house-chimney.svg',
+    'gård': 'building-wheat.svg',
+    'skola': 'school.svg'
   };
 
   function getPlaceIcon(type) {
-    const iconFile = placeIconMap[type] || 'house.svg';
+    const normalizedType = (type || '').toString().trim().toLowerCase();
+    const iconFile = placeIconMap[normalizedType] || 'house.svg';
+    if (!placeIconMap[normalizedType]) {
+      console.warn(`Unknown place type for icon mapping: '${type}'`);
+    }
     return L.icon({
       iconUrl: new URL(`img/map-markers/${iconFile}`, document.location).href,
       iconSize: [32, 32],
