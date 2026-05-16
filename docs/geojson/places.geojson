@@ -3,7 +3,7 @@
                      {
                          "properties":  {
                                             "namn":  "1. Nymans stuga (fattigstugan)",
-                                            "typ":  null,
+                                            "typ":  "Backstuga",
                                             "id":  "1",
                                             "fran":  null,
                                             "till":  null
@@ -20,7 +20,7 @@
                      {
                          "properties":  {
                                             "namn":  "11. Karlahagen",
-                                            "typ":  null,
+                                            "typ":  "Backstuga",
                                             "id":  "11",
                                             "fran":  null,
                                             "till":  null
@@ -37,7 +37,7 @@
                      {
                          "properties":  {
                                             "namn":  "12. Paradiset (Jacoba)",
-                                            "typ":  null,
+                                            "typ":  "Backstuga",
                                             "id":  "12",
                                             "fran":  null,
                                             "till":  null
@@ -54,7 +54,7 @@
                      {
                          "properties":  {
                                             "namn":  "13. Jannes (Freden, Friden)",
-                                            "typ":  null,
+                                            "typ":  "Backstuga",
                                             "id":  "13",
                                             "fran":  null,
                                             "till":  null
@@ -71,7 +71,7 @@
                      {
                          "properties":  {
                                             "namn":  "15. Gamla Åsahemmet",
-                                            "typ":  null,
+                                            "typ":  "Backstuga",
                                             "id":  "15",
                                             "fran":  null,
                                             "till":  null
@@ -173,7 +173,7 @@
                      {
                          "properties":  {
                                             "namn":  "17. Bengta",
-                                            "typ":  null,
+                                            "typ":  "Torp",
                                             "id":  "17",
                                             "fran":  null,
                                             "till":  null
@@ -207,7 +207,7 @@
                      {
                          "properties":  {
                                             "namn":  "2. Småskolan",
-                                            "typ":  null,
+                                            "typ":  "Skola",
                                             "id":  "2",
                                             "fran":  null,
                                             "till":  null
@@ -292,7 +292,7 @@
                      {
                          "properties":  {
                                             "namn":  "5. Sanders",
-                                            "typ":  null,
+                                            "typ":  "Backstuga",
                                             "id":  "5",
                                             "fran":  null,
                                             "till":  null
@@ -479,7 +479,7 @@
                      {
                          "properties":  {
                                             "namn":  "Velinga kyrka",
-                                            "typ":  null,
+                                            "typ":  "Kyrka",
                                             "id":  null,
                                             "fran":  null,
                                             "till":  null

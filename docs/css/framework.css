@@ -30,3 +30,9 @@
 .leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
 	border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color);
 }
+
+.leaflet-control-locate {
+    --locate-control-icon-color: var(--bs-body-color);
+    --locate-control-active-color: var(--bs-primary);
+    --locate-control-following-color: var(--bs-warning);
+}
