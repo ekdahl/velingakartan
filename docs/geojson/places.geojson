@@ -53,7 +53,7 @@
                      },
                      {
                          "properties":  {
-                                            "namn":  "13. Jannes (Freden, Friden)",
+                                            "namn":  "Jannes",
                                             "typ":  "Backstuga",
                                             "id":  "13",
                                             "fran":  null,
@@ -172,7 +172,7 @@
                      },
                      {
                          "properties":  {
-                                            "namn":  "17. Bengta",
+                                            "namn":  "Bengta",
                                             "typ":  "Torp",
                                             "id":  "17",
                                             "fran":  null,
@@ -258,7 +258,7 @@
                      {
                          "properties":  {
                                             "namn":  "23. Enarmingens",
-                                            "typ":  null,
+                                            "typ":  "Backstuga",
                                             "id":  "23",
                                             "fran":  null,
                                             "till":  null
@@ -275,7 +275,7 @@
                      {
                          "properties":  {
                                             "namn":  "24. Myråsen",
-                                            "typ":  null,
+                                            "typ":  "Gård",
                                             "id":  "24",
                                             "fran":  null,
                                             "till":  null
@@ -309,7 +309,7 @@
                      {
                          "properties":  {
                                             "namn":  "61. Bryntahem",
-                                            "typ":  null,
+                                            "typ":  "Gård",
                                             "id":  "61",
                                             "fran":  null,
                                             "till":  null

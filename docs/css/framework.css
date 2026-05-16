@@ -36,3 +36,8 @@
     --locate-control-active-color: var(--bs-primary);
     --locate-control-following-color: var(--bs-warning);
 }
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    background: var(--bs-body-bg);
+    color: var(--bs-body-color);
+}
