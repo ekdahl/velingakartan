@@ -27,6 +27,11 @@
 	background-color: var(--bs-highlight-bg);
 }
 
+.leaflet-bar a.leaflet-disabled {
+    background-color: var(--bs-tertiary-bg);
+    color: var(--bs-tertiary-color);
+}
+
 .leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
 	border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color);
 }
