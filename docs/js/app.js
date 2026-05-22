@@ -70,7 +70,7 @@ async function startApp(config) {
     return L.icon({
       iconUrl: new URL(`img/map-markers/${iconFile}`, document.location).href,
       iconSize: [32, 32],
-      iconAnchor: [16, 32],
+      iconAnchor: [16, 16],
       popupAnchor: [0, -32]
     });
   }
