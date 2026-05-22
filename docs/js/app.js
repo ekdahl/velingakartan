@@ -83,21 +83,19 @@ async function startApp(config) {
       const geojsonData = await geojsonResponse.json();
       const placesLayer = L.geoJSON(geojsonData, {
         pointToLayer: function(feature, latlng) {
-          const typ = feature.properties?.typ;
+          const type = feature.properties?.typ;
           return L.marker(latlng, {
-            icon: getPlaceIcon(typ),
+            icon: getPlaceIcon(type),
             riseOnHover: true
           });
         },
         onEachFeature: function(feature, layer) {
           if (feature.properties) {
             const props = feature.properties;
-            const fromYear = props.fran ?? 'okänt';
-            const toYear = props.till ?? 'okänt';
             const popupContent = `
-              <strong>${props.namn}</strong><br>
-              Typ: ${props.typ}<br>
-              År: ${fromYear}-${toYear}
+              <strong>${props.name}</strong><br>
+              Typ: ${props.type}<br>
+              Skylt finns: ${props.hasSign ? 'Ja' : 'Nej'}
             `;
             layer.bindPopup(popupContent);
           }
