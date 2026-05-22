@@ -100,6 +100,19 @@
 				"attribution": "Lantmäteriet"
 			},
 			"visible": false
+		},
+		{
+			"id": "sockengränser",
+			"type": "wms",
+			"name": "Sockengränser",
+			"url": "https://karta.raa.se/geo/arkreg_v1.0/wms",
+			"options": {
+				"layers": "socken",
+				"attribution": "Riksantikvarieämbetet",
+				"transparent": true,
+				"format": "image/png"
+			},
+			"visible": false
 		}
 	]
 }
