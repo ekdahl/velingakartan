@@ -1,5 +1,3 @@
-# 2. Småskolan
-
 Byggnad på Velinga Backgården, ”Prästegården”. Skolan låg mellan vägen och kyrkstallen. 
 Skylt uppsatt i maj 1989.
 Särskild småskola inrättades genom beslut i sockenstämman den 25 april 1872. En byggnad intill kyrkan skulle tjäna både som skola för de yngre eleverna och som ålderdomshem, allt enligt boken ”Hökensås kommun en minnesskrift” utgiven 1976. I bottenvåningen fanns en skolsal och på andra våningen hade småskollärarinnan sin bostad. I byggnaden fanns också boende på socknens bekostnad, fattigstuga, i ett rum vardera för män och kvinnor.

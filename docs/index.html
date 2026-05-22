@@ -29,6 +29,18 @@
 <body>
 	<main id="map" class="w-100 vh-100"></main>
 
+	<div class="modal fade" id="placeModal" tabindex="-1" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-scrollable">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h1 class="modal-title fs-5" id="placeModalTitle">Info</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      			</div>
+				<div class="modal-body" id="placeModalBody">Loading...</div>
+			</div>
+  		</div>
+	</div>
+
 	<script src="https://cdn.jsdelivr.net/npm/leaflet/dist/leaflet.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js"></script>
 	<script src="https://unpkg.com/leaflet.fullscreen/dist/Control.FullScreen.umd.js"></script>

@@ -95,7 +95,8 @@ async function startApp(config) {
             const popupContent = `
               <strong>${props.name}</strong><br>
               Typ: ${props.type}<br>
-              Skylt finns: ${props.hasSign ? 'Ja' : 'Nej'}
+              Skylt finns: ${props.hasSign ? 'Ja' : 'Nej'}<br>
+               ${props.hasText ? `<a href="#" class="open-place-modal" data-folder="${props.folder}" data-title="${props.name}">Läs mer</a>` : ''}
             `;
             layer.bindPopup(popupContent);
           }
@@ -133,3 +134,41 @@ function createLayer(cfg) {
       throw new Error(`Unknown layer type: ${cfg.type}`);
   }
 }
+
+async function openPlaceModal(title, folder) {
+  try {
+    const path = new URL(`places/${folder}/text.html`, document.location).href;
+
+    const response = await fetch(path);
+    if (!response.ok) {
+      throw new Error(`Failed to load ${path}`);
+    }
+
+    const html = await response.text();
+
+    document.getElementById('placeModalTitle').textContent = title;
+    document.getElementById('placeModalBody').innerHTML = html;
+
+    const modal = new bootstrap.Modal(
+      document.getElementById('placeModal')
+    );
+    modal.show();
+
+  } catch (err) {
+    console.error(err);
+    document.getElementById('placeModalBody').innerHTML =
+      '<p>Could not load information.</p>';
+  }
+}
+
+document.addEventListener('click', async function (e) {
+  const link = e.target.closest('.open-place-modal');
+  if (!link) return;
+
+  e.preventDefault();
+
+  await openPlaceModal(
+    link.dataset.title,
+    link.dataset.folder
+  );
+});
