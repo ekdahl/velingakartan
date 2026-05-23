@@ -24,16 +24,21 @@ async function boot() {
 
 boot();
 
+// Handle Bootstrap modal backdrop in fullscreen mode
 const modalEl = document.getElementById('placeModal');
-
-modalEl.addEventListener('shown.bs.modal', () => {
-  if (document.fullscreenElement) {
-    const backdrop = document.querySelector('.modal-backdrop');
-    if (backdrop) {
-      document.fullscreenElement.appendChild(backdrop);
+if (modalEl) {
+  modalEl.addEventListener('show.bs.modal', () => {
+    if (document.fullscreenElement) {
+      // wait one tick so Bootstrap has created the backdrop
+      setTimeout(() => {
+        const backdrop = document.querySelector('.modal-backdrop');
+        if (backdrop) {
+          document.fullscreenElement.appendChild(backdrop);
+        }
+      }, 0);
     }
-  }
-});
+  });
+}
 
 async function startApp(config) {
   // Initialize the Leaflet map with center and zoom from config
