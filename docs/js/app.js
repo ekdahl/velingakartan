@@ -105,7 +105,7 @@ async function startApp(config) {
             const props = feature.properties;
             const popupContent = `
               <strong>${props.name}</strong><br>
-              Typ: ${props.type}<br>
+              Typ: ${props.type ?? ''}<br>
               Skylt finns: ${props.hasSign ? 'Ja' : 'Nej'}<br>
                ${props.hasText ? `<a href="#" class="open-place-modal" data-folder="${props.folder}" data-title="${props.name}">Läs mer</a>` : ''}
             `;
