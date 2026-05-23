@@ -24,6 +24,17 @@ async function boot() {
 
 boot();
 
+const modalEl = document.getElementById('placeModal');
+
+modalEl.addEventListener('shown.bs.modal', () => {
+  if (document.fullscreenElement) {
+    const backdrop = document.querySelector('.modal-backdrop');
+    if (backdrop) {
+      document.fullscreenElement.appendChild(backdrop);
+    }
+  }
+});
+
 async function startApp(config) {
   // Initialize the Leaflet map with center and zoom from config
   const map = L.map('map').setView(config.mapCenter, config.mapZoom);
