@@ -1,4 +1,2 @@
-# 169. Elina källa
-
 Elina källa är belägen i sydvästra utkanten av Storemossen, några hundratal meter innan Kilåsen. Skylt uppsatt. En äldre kvinna vid namn Ester, bodde på undantag hos Mattssons i Kilåsen på 1960-talet. Hon berättade om källan och pekade ut denna år 1963. Vid en upprensning av källan 2002 upptäcktes en träkista, en knuttimrad inramning av trä som fortfarande är kärnfriskt. I träkistans konstruktion finns borrade, lodräta hål.
 Elina källa har i alla år försörjt Kilåsabornas med vatten då de egna gårdsbrunnarna sinat.

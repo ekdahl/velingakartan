@@ -1,3 +1,1 @@
-# Velinga kyrka
-
 Velinga kyrka

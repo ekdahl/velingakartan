@@ -1,5 +1,3 @@
-# 61. Bryntahem
-
 Skogsgården i herrgårdsliknande stil uppfördes strax ovanför Kaffebackarna av den mytomspunne Nils Asp. Han var född 1779 i Asphyttan, Kroppa socken. 
 Skylt uppsatt våren 1990. Idag finns bara stensättningarna kvar efter gårdens byggnader liksom en hel del aplar och andra växter i den gamla trädgården. Boningshuset och de båda flyglarna på Bryntahem var putsade för att se ut att vara byggda av sten. Ovanför stora dörren på boningshuset var en stor klocka från Ryfors bruk inbyggd i koppartaket. Klockan finns idag, liksom vällingklockan, på Tidaholms Museum. Huset inrymde sex rum, förutom sängkammare. 
 I östra flygeln bodde drängarna. Här fanns även ett ”hantverksrum” men också ett rum som var möblerat i lite elegantare stil med tre sängar, klädda stolar och länstolar, spegel och ett ekbord. I den västra flygeln inrymdes bagarstuga och förråd. Nordiska Museet förde vid sin bebyggelseinventering in Bryntahem under rubriken ”Allmogebebyggelse” men det kunde lika gärna förts in i kategorin för den högreståndsbebyggelse som infattar officershem och prästgårdar.

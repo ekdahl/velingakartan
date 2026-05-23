@@ -1,5 +1,3 @@
-# 23. Enarmingens
-
 Backstuga vid vägen mot Kilåsen. Skylt uppsatt i maj 1989.
 Delar av husgrunden finns idag kvar, liksom en inrasad jordkällare. På andra sidan vägen finns en stensatt brunn som troligen betjänat såväl boende i Enarmingens som boende på grannstället Vinnemossen även kallat Tombo, se nr 21. 
 Enarmingens finns upptaget som backstuga på en karta från 1877- 1882.
