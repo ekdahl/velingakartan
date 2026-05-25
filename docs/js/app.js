@@ -188,3 +188,24 @@ document.addEventListener('click', async function (e) {
     link.dataset.folder
   );
 });
+
+// Stop map interactions when modal is open to prevent conflicts
+const modalEl = document.getElementById('placeModal');
+
+modalEl.addEventListener('show.bs.modal', () => {
+  map.dragging.disable();
+  map.touchZoom.disable();
+  map.scrollWheelZoom.disable();
+  map.doubleClickZoom.disable();
+  map.boxZoom.disable();
+  map.keyboard.disable();
+});
+
+modalEl.addEventListener('hidden.bs.modal', () => {
+  map.dragging.enable();
+  map.touchZoom.enable();
+  map.scrollWheelZoom.enable();
+  map.doubleClickZoom.enable();
+  map.boxZoom.enable();
+  map.keyboard.enable();
+});
