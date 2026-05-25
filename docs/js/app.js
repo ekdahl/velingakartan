@@ -1,3 +1,5 @@
+let map;
+
 async function boot() {
   // Wait for DOM to be ready
   if (document.readyState === 'loading') {
@@ -42,7 +44,7 @@ if (modalEl) {
 
 async function startApp(config) {
   // Initialize the Leaflet map with center and zoom from config
-  const map = L.map('map').setView(config.mapCenter, config.mapZoom);
+  map = L.map('map').setView(config.mapCenter, config.mapZoom);
 
   const layerList = [];
 
