@@ -1,14 +1,14 @@
 {
-  "id": "24",
+  "id": "45",
   "names": [
-    "Myråsen"
+    "Gamlenisen"
   ],
-  "type": "Gård",
+  "type": "Backstuga",
   "hasSign": true,
   "places": [
     {
-      "lat": 58.0989469,
-      "lon": 14.0232679,
+      "lat": 58.1087150,
+      "lon": 13.9885450,
       "from": null,
       "to": null
     }

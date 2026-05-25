@@ -325,7 +325,7 @@
                                             "id":  "24",
                                             "to":  null,
                                             "hasSign":  true,
-                                            "name":  "24. Myråsen",
+                                            "name":  "Myråsen",
                                             "type":  "Gård",
                                             "hasText":  true,
                                             "from":  null,
@@ -336,6 +336,86 @@
                                           "coordinates":  [
                                                               14.0232679,
                                                               58.0989469
+                                                          ],
+                                          "type":  "Point"
+                                      }
+                     },
+                     {
+                         "properties":  {
+                                            "id":  "30",
+                                            "to":  null,
+                                            "hasSign":  true,
+                                            "name":  "Dränggårdstorpet, Skogshem",
+                                            "type":  null,
+                                            "hasText":  true,
+                                            "from":  null,
+                                            "folder":  "30. Dränggårdstorpet, Skogshem"
+                                        },
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              13.9839070,
+                                                              58.1058660
+                                                          ],
+                                          "type":  "Point"
+                                      }
+                     },
+                     {
+                         "properties":  {
+                                            "id":  "31",
+                                            "to":  null,
+                                            "hasSign":  true,
+                                            "name":  "Aplagårdstorpet, Skogslund",
+                                            "type":  null,
+                                            "hasText":  true,
+                                            "from":  null,
+                                            "folder":  "31. Aplagårdstorpet, Skogslund"
+                                        },
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              13.9832450,
+                                                              58.1064710
+                                                          ],
+                                          "type":  "Point"
+                                      }
+                     },
+                     {
+                         "properties":  {
+                                            "id":  "45",
+                                            "to":  null,
+                                            "hasSign":  true,
+                                            "name":  "Gamlenisen",
+                                            "type":  "Backstuga",
+                                            "hasText":  true,
+                                            "from":  null,
+                                            "folder":  "45. Gamlenisen"
+                                        },
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              13.9885450,
+                                                              58.1087150
+                                                          ],
+                                          "type":  "Point"
+                                      }
+                     },
+                     {
+                         "properties":  {
+                                            "id":  "46",
+                                            "to":  null,
+                                            "hasSign":  true,
+                                            "name":  "Skogshagen, Svagerins",
+                                            "type":  "Backstuga",
+                                            "hasText":  true,
+                                            "from":  null,
+                                            "folder":  "46. Skogshagen, Svagerins"
+                                        },
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              13.9917870,
+                                                              58.1102350
                                                           ],
                                           "type":  "Point"
                                       }
