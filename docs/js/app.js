@@ -190,8 +190,6 @@ document.addEventListener('click', async function (e) {
 });
 
 // Stop map interactions when modal is open to prevent conflicts
-const modalEl = document.getElementById('placeModal');
-
 modalEl.addEventListener('show.bs.modal', () => {
   map.dragging.disable();
   map.touchZoom.disable();
