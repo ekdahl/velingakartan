@@ -46,30 +46,28 @@ async function startApp(config) {
   // Initialize the Leaflet map with center and zoom from config
   map = L.map('map').setView(config.mapCenter, config.mapZoom);
 
-  const layerList = [];
+  const baseLayers = {};
+  const overlayLayers = {};
 
-  // Add layers from config
-  if (config.mapLayers && Array.isArray(config.mapLayers)) {
-    config.mapLayers.forEach(layerCfg => {
+  function addConfiguredLayers(layerConfigs, targetGroup) {
+    layerConfigs.forEach(layerCfg => {
       const layer = createLayer(layerCfg);
       const layerName = layerCfg.name || layerCfg.id || 'Unnamed';
 
-      layerList.push({ name: layerName, layer, config: layerCfg });
+      targetGroup[layerName] = layer;
 
-      // Add to map if visible
       if (layerCfg.visible) {
         layer.addTo(map);
       }
     });
   }
 
-  // Add built-in Leaflet layer control
-  const baseLayers = {};
-  const overlayLayers = {};
-  
-  layerList.forEach(({ name, layer }) => {
-    overlayLayers[name] = layer;
-  });
+  // Preferred format: separate lists for mutually exclusive base maps and stackable overlays.
+  const configuredBaseLayers = Array.isArray(config.baseLayers) ? config.baseLayers : [];
+  const configuredOverlayLayers = Array.isArray(config.overlays) ? config.overlays : [];
+
+  addConfiguredLayers(configuredBaseLayers, baseLayers);
+  addConfiguredLayers(configuredOverlayLayers, overlayLayers);
 
   const defaultPlaceIconConfig = {
     file: 'house.svg',

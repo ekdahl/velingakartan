@@ -27,7 +27,7 @@
 	"mapCenter": [ 58.1029, 13.9669 ],
 	"mapZoom": 14,
 
-	"mapLayers": [
+	"baseLayers": [
 		{
 			"id": "topowebb",
 			"name": "Karta",
@@ -123,7 +123,10 @@
 				"attribution": "Lantmäteriet"
 			},
 			"visible": false
-		},
+		}
+	],
+
+	"overlays": [
 		{
 			"id": "sockengränser",
 			"type": "wms",
