@@ -1,40 +1,20 @@
 .place-marker {
-    background: transparent;
-    border: 0;
+	background: transparent;
+	border: 0;
 }
 
 .place-marker__icon {
-    display: block;
-    width: 32px;
-    height: 32px;
+	display: block;
+	width: 32px;
+	height: 32px;
 }
 
 .place-marker__icon svg {
-    display: block;
-    width: 100%;
-    height: 100%;
+	display: block;
+	width: 100%;
+	height: 100%;
 }
 
-.place-marker--kyrka .place-marker__icon svg {
-	fill: rgb(180,174,162);
-}
-
-.place-marker--backstuga .place-marker__icon svg {
-	fill: rgb(147,51,29);
-}
-
-.place-marker--torp .place-marker__icon svg {
-	fill: rgb(168,80,42);
-}
-
-.place-marker--gard .place-marker__icon svg {
-	fill: rgb(196,162,80);
-}
-
-.place-marker--skola .place-marker__icon svg {
-    fill: rgb(58, 90, 130);
-}
-
-.place-marker--default .place-marker__icon svg {
-    fill: var(--bs-gray-600);
+.place-marker--default {
+	fill: var(--bs-gray-600);
 }
