@@ -71,39 +71,48 @@ async function startApp(config) {
     overlayLayers[name] = layer;
   });
 
-  const placeIconMap = {
-    'kyrka': {
-      file: 'church.svg',
-    },
-    'backstuga': {
-      file: 'house.svg',
-    },
-    'torp': {
-      file: 'house-chimney.svg',
-    },
-    'gård': {
-      file: 'building-wheat.svg',
-    },
-    'skola': {
-      file: 'school.svg',
-    }
-  };
-
   const defaultPlaceIconConfig = {
     file: 'house.svg',
     iconAnchor: [16, 16],
     popupAnchor: [0, -32]
   };
 
-  function toMarkerClassSuffix(type) {
-    if (!type) return 'default';
+  function normalizePlaceTypeKey(type) {
+    if (!type) return '';
 
     return type
       .toString()
       .trim()
       .toLowerCase()
       .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[\u0300-\u036f]/g, '');
+  }
+
+  const placeIconMap = Array.isArray(config.placeTypes)
+    ? config.placeTypes.reduce((iconMap, placeType) => {
+        const typeKey = normalizePlaceTypeKey(placeType?.type ?? placeType?.name);
+        const markerFile = placeType?.placeMarker;
+        if (!typeKey || !markerFile) {
+          return iconMap;
+        }
+
+        const iconConfig = { file: markerFile };
+        if (Array.isArray(placeType.iconAnchor)) {
+          iconConfig.iconAnchor = placeType.iconAnchor;
+        }
+        if (Array.isArray(placeType.popupAnchor)) {
+          iconConfig.popupAnchor = placeType.popupAnchor;
+        }
+
+        iconMap[typeKey] = iconConfig;
+        return iconMap;
+      }, {})
+    : {};
+
+  function toMarkerClassSuffix(type) {
+    if (!type) return 'default';
+
+    return normalizePlaceTypeKey(type)
       .replace(/[^a-z0-9]+/g, '-')
       .replace(/^-+|-+$/g, '') || 'default';
   }
@@ -138,12 +147,12 @@ async function startApp(config) {
   }
 
   function getPlaceIcon(type) {
-    const normalizedType = (type || '').toString().trim().toLowerCase();
+    const normalizedType = normalizePlaceTypeKey(type);
     const iconConfig = {
       ...defaultPlaceIconConfig,
       ...(placeIconMap[normalizedType] || {})
     };
-    if (!placeIconMap[normalizedType]) {
+    if (type && !placeIconMap[normalizedType]) {
       console.warn(`Unknown place type for icon mapping: '${type}'`);
     }
 

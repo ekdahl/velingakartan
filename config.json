@@ -1,5 +1,28 @@
 {
-	"title": "Velinga torpinventering",
+	"title": "Velingakartan",
+
+	"placeTypes": [
+		{
+			"name": "Kyrka",
+			"placeMarker": "church.svg"
+		},
+		{
+			"name": "Backstuga",
+			"placeMarker": "house.svg"
+		},
+		{
+			"name": "Torp",
+			"placeMarker": "house-chimney.svg"
+		},
+		{
+			"name": "Gård",
+			"placeMarker": "building-wheat.svg"
+		},
+		{
+			"name": "Skola",
+			"placeMarker": "school.svg"
+		}
+	],
 
 	"mapCenter": [ 58.1029, 13.9669 ],
 	"mapZoom": 14,
