@@ -15,26 +15,26 @@
     height: 100%;
 }
 
-.place-marker--kyrka .place-marker__icon {
+.place-marker--kyrka .place-marker__icon svg {
 	fill: rgb(180,174,162);
 }
 
-.place-marker--backstuga .place-marker__icon {
+.place-marker--backstuga .place-marker__icon svg {
 	fill: rgb(147,51,29);
 }
 
-.place-marker--torp .place-marker__icon {
+.place-marker--torp .place-marker__icon svg {
 	fill: rgb(168,80,42);
 }
 
-.place-marker--gard .place-marker__icon {
+.place-marker--gard .place-marker__icon svg {
 	fill: rgb(196,162,80);
 }
 
-.place-marker--skola .place-marker__icon {
+.place-marker--skola .place-marker__icon svg {
     fill: rgb(58, 90, 130);
 }
 
-.place-marker--default .place-marker__icon {
+.place-marker--default .place-marker__icon svg {
     fill: var(--bs-gray-600);
 }

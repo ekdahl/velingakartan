@@ -74,28 +74,18 @@ async function startApp(config) {
   const placeIconMap = {
     'kyrka': {
       file: 'church.svg',
-      iconAnchor: [16, 16],
-      popupAnchor: [0, -32]
     },
     'backstuga': {
       file: 'house.svg',
-      iconAnchor: [16, 16],
-      popupAnchor: [0, -32]
     },
     'torp': {
       file: 'house-chimney.svg',
-      iconAnchor: [16, 16],
-      popupAnchor: [0, -32]
     },
     'gård': {
       file: 'building-wheat.svg',
-      iconAnchor: [16, 16],
-      popupAnchor: [0, -32]
     },
     'skola': {
       file: 'school.svg',
-      iconAnchor: [16, 16],
-      popupAnchor: [0, -32]
     }
   };
 
@@ -149,12 +139,20 @@ async function startApp(config) {
 
   function getPlaceIcon(type) {
     const normalizedType = (type || '').toString().trim().toLowerCase();
-    const iconConfig = placeIconMap[normalizedType] || defaultPlaceIconConfig;
+    const iconConfig = {
+      ...defaultPlaceIconConfig,
+      ...(placeIconMap[normalizedType] || {})
+    };
     if (!placeIconMap[normalizedType]) {
       console.warn(`Unknown place type for icon mapping: '${type}'`);
     }
 
-    const popupAnchor = iconConfig.popupAnchor || [0, -iconConfig.iconAnchor[1]];
+    const iconAnchor = Array.isArray(iconConfig.iconAnchor)
+      ? iconConfig.iconAnchor
+      : defaultPlaceIconConfig.iconAnchor;
+    const popupAnchor = Array.isArray(iconConfig.popupAnchor)
+      ? iconConfig.popupAnchor
+      : [0, -iconAnchor[1]];
     const inlineSvg = markerSvgMap[iconConfig.file];
     const markerClassName = `place-marker--${toMarkerClassSuffix(normalizedType)}`;
 
@@ -163,7 +161,7 @@ async function startApp(config) {
         html: `<span class="place-marker__icon" aria-hidden="true">${inlineSvg}</span>`,
         className: `place-marker ${markerClassName}`,
         iconSize: [32, 32],
-        iconAnchor: iconConfig.iconAnchor,
+        iconAnchor,
         popupAnchor
       });
     }
@@ -171,7 +169,7 @@ async function startApp(config) {
     return L.icon({
       iconUrl: new URL(`img/map-markers/${iconConfig.file}`, document.location).href,
       iconSize: [32, 32],
-      iconAnchor: iconConfig.iconAnchor,
+      iconAnchor,
       popupAnchor
     });
   }
@@ -184,7 +182,7 @@ async function startApp(config) {
       const geojsonData = await geojsonResponse.json();
       const placesLayer = L.geoJSON(geojsonData, {
         pointToLayer: function(feature, latlng) {
-          const type = feature.properties?.typ;
+          const type = feature.properties?.type;
           return L.marker(latlng, {
             icon: getPlaceIcon(type),
             riseOnHover: true

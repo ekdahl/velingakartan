@@ -346,7 +346,7 @@
                                             "to":  null,
                                             "hasSign":  true,
                                             "name":  "Dränggårdstorpet",
-                                            "type":  null,
+                                            "type":  "Torp",
                                             "hasText":  true,
                                             "from":  null,
                                             "folder":  "30. Dränggårdstorpet, Skogshem"
@@ -366,7 +366,7 @@
                                             "to":  null,
                                             "hasSign":  true,
                                             "name":  "Aplagårdstorpet",
-                                            "type":  null,
+                                            "type":  "Torp",
                                             "hasText":  true,
                                             "from":  null,
                                             "folder":  "31. Aplagårdstorpet, Skogslund"
