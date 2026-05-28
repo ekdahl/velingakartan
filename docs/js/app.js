@@ -86,8 +86,20 @@ async function startApp(config) {
       .replace(/[\u0300-\u036f]/g, '');
   }
 
-  const placeIconMap = Array.isArray(config.placeTypes)
-    ? config.placeTypes.reduce((iconMap, placeType) => {
+  const configuredPlaceTypes = Array.isArray(config.placeTypes) ? config.placeTypes : [];
+
+  const placeTypeLabelMap = configuredPlaceTypes.reduce((labelMap, placeType) => {
+    const typeKey = normalizePlaceTypeKey(placeType?.type ?? placeType?.name);
+    if (!typeKey) {
+      return labelMap;
+    }
+
+    labelMap[typeKey] = placeType?.layerName ?? placeType?.name ?? placeType?.type ?? typeKey;
+    return labelMap;
+  }, {});
+
+  const placeIconMap = configuredPlaceTypes
+    ? configuredPlaceTypes.reduce((iconMap, placeType) => {
         const typeKey = normalizePlaceTypeKey(placeType?.type ?? placeType?.name);
         const markerFile = placeType?.placeMarker;
         if (!typeKey || !markerFile) {
@@ -187,29 +199,55 @@ async function startApp(config) {
     const geojsonResponse = await fetch(geojsonPath);
     if (geojsonResponse.ok) {
       const geojsonData = await geojsonResponse.json();
-      const placesLayer = L.geoJSON(geojsonData, {
-        pointToLayer: function(feature, latlng) {
-          const type = feature.properties?.type;
-          return L.marker(latlng, {
-            icon: getPlaceIcon(type),
-            riseOnHover: true
-          });
-        },
-        onEachFeature: function(feature, layer) {
-          if (feature.properties) {
-            const props = feature.properties;
-            const popupContent = `
-              <strong>${props.name}</strong><br>
-              Typ: ${props.type ?? ''}<br>
-              Skylt finns: ${props.hasSign ? 'Ja' : 'Nej'}<br>
-               ${props.hasText ? `<a href="#" class="open-place-modal" data-folder="${props.folder}" data-title="${props.name}">Läs mer</a>` : ''}
-            `;
-            layer.bindPopup(popupContent);
-          }
+      const allFeatures = Array.isArray(geojsonData?.features) ? geojsonData.features : [];
+
+      configuredPlaceTypes.forEach(placeType => {
+        const typeKey = normalizePlaceTypeKey(placeType?.type ?? placeType?.name);
+        if (!typeKey) {
+          return;
         }
+
+        const typeFeatures = allFeatures.filter(feature => {
+          const featureTypeKey = normalizePlaceTypeKey(feature?.properties?.type);
+          return featureTypeKey === typeKey;
+        });
+
+        if (!typeFeatures.length) {
+          return;
+        }
+
+        const placesLayer = L.geoJSON(
+          {
+            type: 'FeatureCollection',
+            features: typeFeatures
+          },
+          {
+            pointToLayer: function(feature, latlng) {
+              const type = feature.properties?.type;
+              return L.marker(latlng, {
+                icon: getPlaceIcon(type),
+                riseOnHover: true
+              });
+            },
+            onEachFeature: function(feature, layer) {
+              if (feature.properties) {
+                const props = feature.properties;
+                const popupContent = `
+                  <strong>${props.name}</strong><br>
+                  Typ: ${props.type ?? ''}<br>
+                  Skylt finns: ${props.hasSign ? 'Ja' : 'Nej'}<br>
+                   ${props.hasText ? `<a href="#" class="open-place-modal" data-folder="${props.folder}" data-title="${props.name}">Läs mer</a>` : ''}
+                `;
+                layer.bindPopup(popupContent);
+              }
+            }
+          }
+        );
+
+        const overlayLabel = placeTypeLabelMap[typeKey] || (placeType?.name ?? placeType?.type ?? typeKey);
+        overlayLayers[overlayLabel] = placesLayer;
+        placesLayer.addTo(map);
       });
-      overlayLayers['Platser'] = placesLayer;
-      placesLayer.addTo(map);
     }
   } catch (error) {
     console.warn('Could not load GeoJSON:', error);

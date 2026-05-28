@@ -4,22 +4,27 @@
 	"placeTypes": [
 		{
 			"name": "Kyrka",
+			"layerName": "Kyrkor",
 			"placeMarker": "church.svg"
 		},
 		{
 			"name": "Backstuga",
+			"layerName": "Backstugor",
 			"placeMarker": "house.svg"
 		},
 		{
 			"name": "Torp",
+			"layerName": "Torp",
 			"placeMarker": "house-chimney.svg"
 		},
 		{
 			"name": "Gård",
+			"layerName": "Gårdar",
 			"placeMarker": "building-wheat.svg"
 		},
 		{
 			"name": "Skola",
+			"layerName": "Skolor",
 			"placeMarker": "school.svg"
 		}
 	],
