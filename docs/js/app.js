@@ -72,24 +72,107 @@ async function startApp(config) {
   });
 
   const placeIconMap = {
-    'kyrka': 'church.svg',
-    'backstuga': 'house.svg',
-    'torp': 'house-chimney.svg',
-    'gård': 'building-wheat.svg',
-    'skola': 'school.svg'
+    'kyrka': {
+      file: 'church.svg',
+      iconAnchor: [16, 16],
+      popupAnchor: [0, -32]
+    },
+    'backstuga': {
+      file: 'house.svg',
+      iconAnchor: [16, 16],
+      popupAnchor: [0, -32]
+    },
+    'torp': {
+      file: 'house-chimney.svg',
+      iconAnchor: [16, 16],
+      popupAnchor: [0, -32]
+    },
+    'gård': {
+      file: 'building-wheat.svg',
+      iconAnchor: [16, 16],
+      popupAnchor: [0, -32]
+    },
+    'skola': {
+      file: 'school.svg',
+      iconAnchor: [16, 16],
+      popupAnchor: [0, -32]
+    }
   };
+
+  const defaultPlaceIconConfig = {
+    file: 'house.svg',
+    iconAnchor: [16, 16],
+    popupAnchor: [0, -32]
+  };
+
+  function toMarkerClassSuffix(type) {
+    if (!type) return 'default';
+
+    return type
+      .toString()
+      .trim()
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '') || 'default';
+  }
+
+  const markerSvgMap = await loadMarkerSvgMap(placeIconMap, defaultPlaceIconConfig);
+
+  async function loadMarkerSvgMap(iconMap, defaultIconConfig) {
+    const files = [
+      ...new Set([
+        ...Object.values(iconMap).map(iconCfg => iconCfg.file),
+        defaultIconConfig.file
+      ])
+    ];
+
+    const entries = await Promise.all(files.map(async file => {
+      const markerPath = new URL(`img/map-markers/${file}`, document.location).href;
+      try {
+        const markerResponse = await fetch(markerPath);
+        if (!markerResponse.ok) {
+          throw new Error(`Could not fetch marker ${file}: ${markerResponse.status}`);
+        }
+
+        const markerSvg = await markerResponse.text();
+        return [file, markerSvg];
+      } catch (error) {
+        console.warn(`Could not inline SVG marker '${file}', using image fallback.`, error);
+        return [file, null];
+      }
+    }));
+
+    return Object.fromEntries(entries);
+  }
 
   function getPlaceIcon(type) {
     const normalizedType = (type || '').toString().trim().toLowerCase();
-    const iconFile = placeIconMap[normalizedType] || 'house.svg';
+    const iconConfig = placeIconMap[normalizedType] || defaultPlaceIconConfig;
     if (!placeIconMap[normalizedType]) {
       console.warn(`Unknown place type for icon mapping: '${type}'`);
     }
+
+    const popupAnchor = iconConfig.popupAnchor || [0, -iconConfig.iconAnchor[1]];
+    const inlineSvg = markerSvgMap[iconConfig.file];
+    const markerClassName = `place-marker--${toMarkerClassSuffix(normalizedType)}`;
+
+    if (inlineSvg) {
+      return L.divIcon({
+        html: `<span class="place-marker__icon" aria-hidden="true">${inlineSvg}</span>`,
+        className: `place-marker ${markerClassName}`,
+        iconSize: [32, 32],
+        iconAnchor: iconConfig.iconAnchor,
+        popupAnchor
+      });
+    }
+
     return L.icon({
-      iconUrl: new URL(`img/map-markers/${iconFile}`, document.location).href,
+      iconUrl: new URL(`img/map-markers/${iconConfig.file}`, document.location).href,
       iconSize: [32, 32],
-      iconAnchor: [16, 16],
-      popupAnchor: [0, -32]
+      iconAnchor: iconConfig.iconAnchor,
+      popupAnchor
     });
   }
   

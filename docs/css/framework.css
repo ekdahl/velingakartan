@@ -1,5 +1,6 @@
 @import "typography.css";
 @import "leaflet.css";
+@import "place-markers.css";
 
 .modal-body {
     font-size: var(--bs-body-font-size);
