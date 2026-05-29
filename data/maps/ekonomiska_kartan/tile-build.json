@@ -22,6 +22,6 @@
   "tileGenerationCommands": [
     "gdalbuildvrt mosaic.vrt *.tif",
     "gdalwarp -s_srs EPSG:3021 -t_srs EPSG:3857 -of VRT mosaic.vrt mosaic_3857.vrt",
-    "gdal2tiles.py --xyz --tiledriver=WEBP --webp-quality=85 mosaic.vrt tiles"
+    "gdal2tiles.py --xyz --tiledriver=WEBP --webp-quality=85 mosaic_3857.vrt tiles"
   ]
 }
