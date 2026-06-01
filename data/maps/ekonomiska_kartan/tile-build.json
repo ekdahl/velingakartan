@@ -22,6 +22,6 @@
   "tileGenerationCommands": [
     "gdalbuildvrt -overwrite mosaic.vrt *.tif",
     "gdalwarp -overwrite -s_srs EPSG:3021 -t_srs EPSG:3857 -of VRT mosaic.vrt mosaic_3857.vrt",
-    "gdal2tiles --xyz --tiledriver=WEBP --webp-quality=85 mosaic_3857.vrt tiles"
+    "gdal2tiles --xyz --tiledriver=WEBP --webp-quality=80 mosaic_3857.vrt tiles"
   ]
 }
