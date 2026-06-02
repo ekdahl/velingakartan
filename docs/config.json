@@ -69,13 +69,25 @@
 		},
 		{
 			"id": "häradsekonomiska_kartan",
-			"name": "Häradsekonomiska kartan 1877-82",
+			"name": "Häradskartan 1877-82",
 			"type": "xyz",
 			"url": "./tiles/häradsekonomiska_kartan/{z}/{x}/{y}.webp",
 			"options": {
 				"opacity": 0.8,
 				"minNativeZoom": 10,
 				"maxNativeZoom": 15
+			},
+			"visible": false
+		},
+		{
+			"id": "laga_skifte",
+			"name": "Laga skifte 1857",
+			"type": "xyz",
+			"url": "./tiles/laga_skifte/{z}/{x}/{y}.webp",
+			"options": {
+				"opacity": 0.8,
+				"minNativeZoom": 12,
+				"maxNativeZoom": 17
 			},
 			"visible": false
 		},
