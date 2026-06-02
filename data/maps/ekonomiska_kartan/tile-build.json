@@ -20,8 +20,8 @@
     "ftp://download-opendata.lantmateriet.se/Ekonomiska_kartan/7d/133_7d7j61_0_b2.TAB"
   ],
   "tileGenerationCommands": [
-    "gdalbuildvrt -overwrite mosaic.vrt *.tif",
+    "gdalbuildvrt -overwrite -addalpha mosaic.vrt *.tif",
     "gdalwarp -overwrite -s_srs EPSG:3021 -t_srs EPSG:3857 -of VRT mosaic.vrt mosaic_3857.vrt",
-    "gdal2tiles --xyz --tiledriver=WEBP --webp-quality=80 mosaic_3857.vrt tiles"
+    "gdal2tiles --xyz --tiledriver=WEBP mosaic_3857.vrt tiles"
   ]
 }
