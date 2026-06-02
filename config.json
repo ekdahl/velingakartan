@@ -74,7 +74,7 @@
 			"url": "./tiles/häradsekonomiska_kartan/{z}/{x}/{y}.webp",
 			"options": {
 				"opacity": 0.8,
-				"minZoom": 3,
+				"minZoom": 10,
 				"maxZoom": 15
 			},
 			"visible": false

@@ -62,7 +62,7 @@
 			"url": "./tiles/ekonomiska_kartan/{z}/{x}/{y}.webp",
 			"options": {
 				"opacity": 0.8,
-				"minZoom": 12,
+				"minZoom": 10,
 				"maxZoom": 16
 			},
 			"visible": false
@@ -74,8 +74,8 @@
 			"url": "./tiles/häradsekonomiska_kartan/{z}/{x}/{y}.webp",
 			"options": {
 				"opacity": 0.8,
-				"minZoom": 12,
-				"maxZoom": 16
+				"minZoom": 10,
+				"maxZoom": 15
 			},
 			"visible": false
 		},
