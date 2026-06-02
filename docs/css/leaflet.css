@@ -7,6 +7,10 @@
 	color: var(--bs-body-color);
 }
 
+.leaflet-control-layers-separator {
+	border-top-color: var(--bs-border-color);
+}
+
 .leaflet-container {
 	font-family: var(--bs-body-font-family);
 }

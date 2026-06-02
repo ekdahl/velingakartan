@@ -45,28 +45,19 @@
 			"visible": true
 		},
 		{
-			"id": "storskifte",
-			"name": "Storskifte",
+			"id": "topowebb_nedtonad",
+			"name": "Nedtonad karta",
 			"type": "xyz",
-			"url": "./tiles/storskifte/{z}/{x}/{y}.webp",
+			"url": "https://minkarta.lantmateriet.se/map/topowebbcache?layer=topowebb_nedtonad&tilematrixset=3857&Service=WMTS&Request=GetTile&TileMatrix={z}&TileCol={x}&TileRow={y}",
 			"options": {
-				"opacity": 0.8
-			},
-			"visible": false
-		},
-		{
-			"id": "laga_skifte",
-			"name": "Laga skifte 1857",
-			"type": "xyz",
-			"url": "./tiles/lagaskifte/{z}/{x}/{y}.webp",
-			"options": {
-				"opacity": 0.8
+				"attribution": "Lantmäteriet",
+				"opacity": 1
 			},
 			"visible": false
 		},
 		{
 			"id": "ekonomiska_kartan",
-			"name": "Ekonomiska kartan",
+			"name": "Ekonomiska kartan 1961",
 			"type": "xyz",
 			"url": "./tiles/ekonomiska_kartan/{z}/{x}/{y}.webp",
 			"options": {
@@ -77,13 +68,14 @@
 			"visible": false
 		},
 		{
-			"id": "topowebb_nedtonad",
-			"name": "Nedtonad karta",
+			"id": "häradsekonomiska_kartan",
+			"name": "Häradsekonomiska kartan 1877-82",
 			"type": "xyz",
-			"url": "https://minkarta.lantmateriet.se/map/topowebbcache?layer=topowebb_nedtonad&tilematrixset=3857&Service=WMTS&Request=GetTile&TileMatrix={z}&TileCol={x}&TileRow={y}",
+			"url": "./tiles/häradsekonomiska_kartan/{z}/{x}/{y}.webp",
 			"options": {
-				"attribution": "Lantmäteriet",
-				"opacity": 1
+				"opacity": 0.8,
+				"minZoom": 12,
+				"maxZoom": 16
 			},
 			"visible": false
 		},
