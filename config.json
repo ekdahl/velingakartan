@@ -45,38 +45,6 @@
 			"visible": true
 		},
 		{
-			"id": "storskifte",
-			"name": "Storskifte",
-			"type": "xyz",
-			"url": "./tiles/storskifte/{z}/{x}/{y}.webp",
-			"options": {
-				"opacity": 0.8
-			},
-			"visible": false
-		},
-		{
-			"id": "laga_skifte",
-			"name": "Laga skifte 1857",
-			"type": "xyz",
-			"url": "./tiles/lagaskifte/{z}/{x}/{y}.webp",
-			"options": {
-				"opacity": 0.8
-			},
-			"visible": false
-		},
-		{
-			"id": "ekonomiska_kartan",
-			"name": "Ekonomiska kartan",
-			"type": "xyz",
-			"url": "./tiles/ekonomiska_kartan/{z}/{x}/{y}.webp",
-			"options": {
-				"opacity": 0.8,
-				"minZoom": 12,
-				"maxZoom": 16
-			},
-			"visible": false
-		},
-		{
 			"id": "topowebb_nedtonad",
 			"name": "Nedtonad karta",
 			"type": "xyz",
@@ -84,6 +52,30 @@
 			"options": {
 				"attribution": "Lantmäteriet",
 				"opacity": 1
+			},
+			"visible": false
+		},
+		{
+			"id": "ekonomiska_kartan",
+			"name": "Ekonomiska kartan 1961",
+			"type": "xyz",
+			"url": "./tiles/ekonomiska_kartan/{z}/{x}/{y}.webp",
+			"options": {
+				"opacity": 0.8,
+				"minZoom": 10,
+				"maxZoom": 16
+			},
+			"visible": false
+		},
+		{
+			"id": "häradsekonomiska_kartan",
+			"name": "Häradsekonomiska kartan 1877-82",
+			"type": "xyz",
+			"url": "./tiles/häradsekonomiska_kartan/{z}/{x}/{y}.webp",
+			"options": {
+				"opacity": 0.8,
+				"minZoom": 3,
+				"maxZoom": 15
 			},
 			"visible": false
 		},
