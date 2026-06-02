@@ -1,0 +1,88 @@
+<VRTDataset rasterXSize="11601" rasterYSize="10661" subClass="VRTWarpedDataset">
+  <SRS dataAxisToSRSAxisMapping="2,1">PROJCS["SWEREF99 TM",GEOGCS["SWEREF99",DATUM["SWEREF99",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6619"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4619"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",15],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Northing",NORTH],AXIS["Easting",EAST],AUTHORITY["EPSG","3006"]]</SRS>
+  <GeoTransform>  4.3648135140247631e+05,  4.0383572619568364e-01,  0.0000000000000000e+00,  6.4436585608501639e+06,  0.0000000000000000e+00, -4.0383572619568364e-01</GeoTransform>
+  <Metadata>
+    <MDI key="TIFFTAG_MAXSAMPLEVALUE">1</MDI>
+    <MDI key="TIFFTAG_MINSAMPLEVALUE">0</MDI>
+    <MDI key="TIFFTAG_RESOLUTIONUNIT">2 (pixels/inch)</MDI>
+    <MDI key="TIFFTAG_XRESOLUTION">254</MDI>
+    <MDI key="TIFFTAG_YRESOLUTION">254</MDI>
+  </Metadata>
+  <Metadata domain="IMAGE_STRUCTURE">
+    <MDI key="INTERLEAVE">PIXEL</MDI>
+  </Metadata>
+  <VRTRasterBand dataType="Byte" band="1" subClass="VRTWarpedRasterBand">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">18</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">170.75148861079</MDI>
+      <MDI key="STATISTICS_STDDEV">34.402081178134</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">69.07</MDI>
+    </Metadata>
+    <ColorInterp>Red</ColorInterp>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2" subClass="VRTWarpedRasterBand">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">14</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">150.71381385947</MDI>
+      <MDI key="STATISTICS_STDDEV">35.359868154265</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">69.07</MDI>
+    </Metadata>
+    <ColorInterp>Green</ColorInterp>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3" subClass="VRTWarpedRasterBand">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">3</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">107.88981663107</MDI>
+      <MDI key="STATISTICS_STDDEV">46.626775824743</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">69.07</MDI>
+    </Metadata>
+    <ColorInterp>Blue</ColorInterp>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="4" subClass="VRTWarpedRasterBand">
+    <ColorInterp>Alpha</ColorInterp>
+  </VRTRasterBand>
+  <BlockXSize>512</BlockXSize>
+  <BlockYSize>128</BlockYSize>
+  <GDALWarpOptions>
+    <WarpMemoryLimit>6.71089e+07</WarpMemoryLimit>
+    <ResampleAlg>NearestNeighbour</ResampleAlg>
+    <WorkingDataType>Byte</WorkingDataType>
+    <Option name="INIT_DEST">0</Option>
+    <Option name="ERROR_OUT_IF_EMPTY_SOURCE_WINDOW">FALSE</Option>
+    <SourceDataset relativeToVRT="1">0001ll71_1_1.tiff</SourceDataset>
+    <Transformer>
+      <ApproxTransformer>
+        <MaxError>0.125</MaxError>
+        <BaseTransformer>
+          <GenImgProjTransformer>
+            <SrcGCPTransformer>
+              <GCPTransformer>
+                <Order>1</Order>
+                <Reversed>0</Reversed>
+                <GCPList>
+                  <GCP Id="" Pixel="6036.2276" Line="6259.2733" X="4.391052800000E+05" Y="6.440632430000E+06" />
+                  <GCP Id="" Pixel="3723.7833" Line="8064.0247" X="4.380127500000E+05" Y="6.440140940000E+06" />
+                  <GCP Id="" Pixel="888.8811" Line="3439.1362" X="4.373424500000E+05" Y="6.442224110000E+06" />
+                </GCPList>
+              </GCPTransformer>
+            </SrcGCPTransformer>
+            <DstGeoTransform>436481.35140247631,0.40383572619568364,0,6443658.5608501639,0,-0.40383572619568364</DstGeoTransform>
+            <DstInvGeoTransform>-1080838.8735546737,2.4762544151812795,0,15956137.961225869,0,-2.4762544151812795</DstInvGeoTransform>
+          </GenImgProjTransformer>
+        </BaseTransformer>
+      </ApproxTransformer>
+    </Transformer>
+    <BandList>
+      <BandMapping src="1" dst="1" />
+      <BandMapping src="2" dst="2" />
+      <BandMapping src="3" dst="3" />
+    </BandList>
+    <DstAlphaBand>4</DstAlphaBand>
+  </GDALWarpOptions>
+</VRTDataset>

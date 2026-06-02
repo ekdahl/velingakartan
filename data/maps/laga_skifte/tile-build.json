@@ -1,0 +1,10 @@
+{
+  "sources": [
+    "https://historiskakartor.lantmateriet.se/data/image-service/lm16_0001ll71_1_1.tiff",
+    "map_3006.vrt"
+  ],
+  "tileGenerationCommands": [
+    "gdalwarp -overwrite -s_srs EPSG:3006 -t_srs EPSG:3857 map_3006.vrt map_3857.tif",
+    "gdal2tiles --xyz --tiledriver=WEBP map_3857.tif tiles"
+  ]
+}
