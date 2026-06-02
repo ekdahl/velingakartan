@@ -1,10 +1,10 @@
 {
   "sources": [
-    "https://historiskakartor.lantmateriet.se/data/image-service/rak2_52414b5f4a3131322d34332d3235_1_1.tiff",
+    "ftp://download-opendata.lantmateriet.se/Haradsekonomiska_kartan/H%C3%A4radsekonomiska_Kartan_S%C3%B6dra/J112-43-25/112_43-25_0.tif",
     "map_3006.vrt"
   ],
   "tileGenerationCommands": [
-    "gdalwarp -overwrite -s_srs EPSG:3006 -t_srs EPSG:3857 map_3006.vrt map_3857.vrt",
-    "gdal2tiles --xyz --tiledriver=WEBP map_3857.vrt tiles"
+    "gdalwarp -overwrite -s_srs EPSG:3006 -t_srs EPSG:3857 map_3006.vrt map_3857.tif",
+    "gdal2tiles --xyz --tiledriver=WEBP map_3857.tif tiles"
   ]
 }
