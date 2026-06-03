@@ -232,11 +232,12 @@ async function startApp(config) {
             onEachFeature: function(feature, layer) {
               if (feature.properties) {
                 const props = feature.properties;
+                const placeTitle = props.id != null ? `${props.id} - ${props.name}` : props.name;
                 const popupContent = `
-                  <strong>${props.name}</strong><br>
+                  <strong>${placeTitle}</strong><br>
                   Typ: ${props.type ?? ''}<br>
                   Skylt finns: ${props.hasSign ? 'Ja' : 'Nej'}<br>
-                   ${props.hasText ? `<a href="#" class="open-place-modal" data-folder="${props.folder}" data-title="${props.name}">Läs mer</a>` : ''}
+                   ${props.hasText ? `<a href="#" class="open-place-modal" data-folder="${props.folder}" data-title="${placeTitle}">Läs mer</a>` : ''}
                 `;
                 layer.bindPopup(popupContent);
               }
