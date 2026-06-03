@@ -1,8 +1,6 @@
 {
   "id": "2",
-  "names": [
-    "Småskolan"
-  ],
+  "name": "Småskolan",
   "type": "Skola",
   "hasSign": true,
   "places": [

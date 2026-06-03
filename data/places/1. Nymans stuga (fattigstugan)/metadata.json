@@ -1,9 +1,6 @@
 {
   "id": "1",
-  "names": [
-    "Nymans stuga",
-    "fattigstugan"
-  ],
+  "name": "Nymans stuga (fattigstugan)",
   "type": "Backstuga",
   "hasSign": true,
   "places": [

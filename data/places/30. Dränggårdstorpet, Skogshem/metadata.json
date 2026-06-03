@@ -1,9 +1,6 @@
 {
   "id": "30",
-  "names": [
-    "Dränggårdstorpet",
-    "Skogshem"
-  ],
+  "name": "Dränggårdstorpet (Skogshem)",
   "type": "Torp",
   "hasSign": true,
   "places": [
