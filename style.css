@@ -1,23 +1,23 @@
 .place-marker--kyrka {
-	fill: rgb(180,174,162);
+	fill: Gray;
 }
 
 .place-marker--backstuga {
-	fill: rgb(147,51,29);
+	fill: Maroon;
 }
 
 .place-marker--torp {
-	fill: rgb(168,80,42);
+	fill: DarkRed;
 }
 
 .place-marker--gard {
-	fill: rgb(196,162,80);
+	fill: FireBrick;
 }
 
 .place-marker--skola {
-	fill: rgb(58, 90, 130);
+	fill: RoyalBlue;
 }
 
 .place-marker--default {
-	fill: var(--bs-gray-600);
+	fill: SlateGray;
 }
