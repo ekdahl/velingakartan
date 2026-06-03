@@ -254,7 +254,16 @@ async function startApp(config) {
   }
   
   L.control.layers(baseLayers, overlayLayers, { position: 'topright' }).addTo(map);
-  L.control.locate().addTo(map);
+  L.control.locate({
+    strings: {
+        popup: (data) => `
+            You are within ${data.distance} ${data.unit} from this point
+            <br><br>
+            ${data.lat}, ${data.lng} &nbsp;
+            <button onclick="navigator.clipboard.writeText('${data.lat},${data.lng}')">Copy</button>
+        `
+    }
+}).addTo(map);
   map.addControl(new L.Control.FullScreen());
 
   return map;
