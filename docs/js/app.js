@@ -224,10 +224,16 @@ async function startApp(config) {
           {
             pointToLayer: function(feature, latlng) {
               const type = feature.properties?.type;
-              return L.marker(latlng, {
+              const marker = L.marker(latlng, {
                 icon: getPlaceIcon(type),
-                riseOnHover: true
+                riseOnHover: true,
+                title: feature.properties?.name ?? undefined
               });
+
+              if (feature.properties?.id != null) {
+                marker.bindTooltip(String(feature.properties.id));
+              }
+              return marker;
             },
             onEachFeature: function(feature, layer) {
               if (feature.properties) {

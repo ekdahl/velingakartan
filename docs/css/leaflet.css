@@ -49,6 +49,28 @@
 	z-index: 1000;
 }
 
+.leaflet-tooltip {
+	background-color: var(--bs-body-bg);
+	border-color: var(--bs-border-color-translucent);
+	color: var(--bs-emphasis-color);
+}
+
+.leaflet-tooltip-top:before {
+	border-top-color: var(--bs-body-bg);
+}
+
+.leaflet-tooltip-bottom:before {
+	border-bottom-color:var(--bs-body-bg);
+}
+
+.leaflet-tooltip-left:before {
+	border-left-color: var(--bs-body-bg);
+}
+
+.leaflet-tooltip-right:before {
+	border-right-color: var(--bs-body-bg)
+}
+
 :root,
 [data-bs-theme=light] {
 	--fullscreen-icon-enter: url('data:image/svg+xml,<svg viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg"><path d="M5 10.3V5.9c0-.5.4-.9.9-.9h4.4c.2 0 .4.2.4.4V7c0 .2-.2.4-.4.4h-3v3c0 .2-.2.4-.4.4H5.4a.4.4 0 0 1-.4-.4zm10.3-4.9V7c0 .2.2.4.4.4h3v3c0 .2.2.4.4.4h1.5c.2 0 .4-.2.4-.4V5.9c0-.5-.4-.9-.9-.9h-4.4c-.2 0-.4.2-.4.4zm5.3 9.9H19c-.2 0-.4.2-.4.4v3h-3c-.2 0-.4.2-.4.4v1.5c0 .2.2.4.4.4h4.4c.5 0 .9-.4.9-.9v-4.4c0-.2-.2-.4-.4-.4zm-9.9 5.3V19c0-.2-.2-.4-.4-.4h-3v-3c0-.2-.2-.4-.4-.4H5.4c-.2 0-.4.2-.4.4v4.4c0 .5.4.9.9.9h4.4c.2 0 .4-.2.4-.4z" fill="%23212529"/></svg>');
