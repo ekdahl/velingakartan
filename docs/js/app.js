@@ -231,7 +231,9 @@ async function startApp(config) {
               });
 
               if (feature.properties?.id != null) {
-                marker.bindTooltip(String(feature.properties.id));
+                const props = feature.properties;
+                const placeTitle = props.id != null ? `${props.id} - ${props.name}` : props.name;
+                marker.bindTooltip(placeTitle);
               }
               return marker;
             },

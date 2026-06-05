@@ -150,6 +150,47 @@
 				"format": "image/png"
 			},
 			"visible": false
+		},
+		{
+			"id": "fastighetsgränser",
+			"type": "wms",
+			"name": "Fastighetsgränser",
+			"url": "https://karta.raa.se/lmfastighet",
+			"options": {
+				"layers": "granser",
+				"attribution": "Riksantikvarieämbetet",
+				"transparent": true,
+				"format": "image/png"
+			},
+			"visible": false
+		},
+		{
+			"id": "terranglutning",
+			"type": "wms",
+			"name": "Terränglutning",
+			"url": "https://karta.raa.se/lmhojdmodell",
+			"options": {
+				"layers": "terranglutning",
+				"attribution": "Riksantikvarieämbetet",
+				"transparent": true,
+				"format": "image/png",
+				"opacity": 0.3
+			},
+			"visible": false
+		},
+		{
+			"id": "terrangskuggning",
+			"type": "wms",
+			"name": "Terrängskuggning",
+			"url": "https://karta.raa.se/lmhojdmodell",
+			"options": {
+				"layers": "terrangskuggning",
+				"attribution": "Riksantikvarieämbetet",
+				"transparent": true,
+				"format": "image/png",
+				"opacity": 0.3
+			},
+			"visible": false
 		}
 	]
 }
