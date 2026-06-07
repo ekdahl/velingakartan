@@ -1,0 +1,14 @@
+{
+  "id": "107",
+  "name": "Paris under Torp",
+  "type": "Torp",
+  "hasSign": true,
+  "places": [
+    {
+      "lat": 58.12469,
+      "lon": 13.96241,
+      "from": null,
+      "to": null
+    }
+  ]
+}
