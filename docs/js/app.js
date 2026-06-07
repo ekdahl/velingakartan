@@ -232,7 +232,7 @@ async function startApp(config) {
 
               if (feature.properties?.id != null) {
                 const props = feature.properties;
-                const placeTitle = props.id != null ? `${props.id} - ${props.name}` : props.name;
+                const placeTitle = props.id != null ? `${props.id}. ${props.name}` : props.name;
                 marker.bindTooltip(placeTitle);
               }
               return marker;
@@ -240,7 +240,7 @@ async function startApp(config) {
             onEachFeature: function(feature, layer) {
               if (feature.properties) {
                 const props = feature.properties;
-                const placeTitle = props.id != null ? `${props.id} - ${props.name}` : props.name;
+                const placeTitle = props.id != null ? `${props.id}. ${props.name}` : props.name;
                 const popupContent = `
                   <strong>${placeTitle}</strong><br>
                   Typ: ${props.type ?? ''}<br>
@@ -274,6 +274,15 @@ async function startApp(config) {
     }
 }).addTo(map);
   map.addControl(new L.Control.FullScreen());
+
+  map.on('contextmenu', (e) => {
+    const coords = `${e.latlng.lat.toFixed(5)}, ${e.latlng.lng.toFixed(5)}`;
+    navigator.clipboard.writeText(coords);
+    L.popup()
+        .setLatLng(e.latlng)
+        .setContent(`Copied:<br>${coords}`)
+        .openOn(map);
+  });
 
   return map;
 }

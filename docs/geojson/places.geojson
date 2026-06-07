@@ -22,6 +22,46 @@
                      },
                      {
                          "properties":  {
+                                            "id":  "108",
+                                            "to":  null,
+                                            "hasSign":  true,
+                                            "name":  "Wredet",
+                                            "type":  "Torp",
+                                            "hasText":  true,
+                                            "from":  null,
+                                            "folder":  "108. Wredet"
+                                        },
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              13.96198,
+                                                              58.13077
+                                                          ],
+                                          "type":  "Point"
+                                      }
+                     },
+                     {
+                         "properties":  {
+                                            "id":  "109",
+                                            "to":  null,
+                                            "hasSign":  true,
+                                            "name":  "Lövrudan",
+                                            "type":  "Torp",
+                                            "hasText":  true,
+                                            "from":  null,
+                                            "folder":  "109. Lövrudan"
+                                        },
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              13.96429,
+                                                              58.12999
+                                                          ],
+                                          "type":  "Point"
+                                      }
+                     },
+                     {
+                         "properties":  {
                                             "id":  "11",
                                             "to":  null,
                                             "hasSign":  true,
@@ -76,6 +116,26 @@
                                           "coordinates":  [
                                                               13.9828006,
                                                               58.0976992
+                                                          ],
+                                          "type":  "Point"
+                                      }
+                     },
+                     {
+                         "properties":  {
+                                            "id":  "133",
+                                            "to":  null,
+                                            "hasSign":  true,
+                                            "name":  "Västerberga",
+                                            "type":  "Torp",
+                                            "hasText":  true,
+                                            "from":  null,
+                                            "folder":  "133. Västerberga"
+                                        },
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              13.93604,
+                                                              58.10312
                                                           ],
                                           "type":  "Point"
                                       }
@@ -336,6 +396,26 @@
                                           "coordinates":  [
                                                               14.0232679,
                                                               58.0989469
+                                                          ],
+                                          "type":  "Point"
+                                      }
+                     },
+                     {
+                         "properties":  {
+                                            "id":  "3",
+                                            "to":  null,
+                                            "hasSign":  true,
+                                            "name":  "Osta-Majes",
+                                            "type":  "Backstuga",
+                                            "hasText":  true,
+                                            "from":  null,
+                                            "folder":  "3. Osta-Majes"
+                                        },
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              13.9686518,
+                                                              58.1025611
                                                           ],
                                           "type":  "Point"
                                       }
@@ -656,6 +736,26 @@
                                           "coordinates":  [
                                                               13.9667152,
                                                               58.1028517
+                                                          ],
+                                          "type":  "Point"
+                                      }
+                     },
+                     {
+                         "properties":  {
+                                            "id":  "nr",
+                                            "to":  null,
+                                            "hasSign":  true,
+                                            "name":  "Namn",
+                                            "type":  "Typ",
+                                            "hasText":  true,
+                                            "from":  null,
+                                            "folder":  "x. Mall copy"
+                                        },
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              13,
+                                                              58
                                                           ],
                                           "type":  "Point"
                                       }
