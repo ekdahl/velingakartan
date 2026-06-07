@@ -18,6 +18,11 @@
 			"placeMarker": "house-chimney.svg"
 		},
 		{
+			"name": "Soldattorp",
+			"layerName": "Soldattorp",
+			"placeMarker": "house-chimney.svg"
+		},
+		{
 			"name": "Gård",
 			"layerName": "Gårdar",
 			"placeMarker": "building-wheat.svg"
