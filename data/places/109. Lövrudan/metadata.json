@@ -1,12 +1,12 @@
 {
-  "id": "108",
-  "name": "Wredet",
+  "id": "109",
+  "name": "Lövrudan",
   "type": "Torp",
   "hasSign": true,
   "places": [
     {
-      "lat": 58.13077,
-      "lon": 13.96198,
+      "lat": 58.12999,
+      "lon": 13.96429,
       "from": null,
       "to": null
     }
