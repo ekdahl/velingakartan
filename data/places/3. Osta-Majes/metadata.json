@@ -1,0 +1,14 @@
+{
+  "id": "3",
+  "name": "Osta-Majes",
+  "type": "Backstuga",
+  "hasSign": true,
+  "places": [
+    {
+      "lat": 58.1025611,
+      "lon": 13.9686518,
+      "from": null,
+      "to": null
+    }
+  ]
+}

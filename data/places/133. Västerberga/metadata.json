@@ -1,0 +1,14 @@
+{
+  "id": "133",
+  "name": "Västerberga",
+  "type": "Torp",
+  "hasSign": true,
+  "places": [
+    {
+      "lat": 58.10312,
+      "lon": 13.93604,
+      "from": null,
+      "to": null
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "108",
+  "name": "Wredet",
+  "type": "Torp",
+  "hasSign": true,
+  "places": [
+    {
+      "lat": 58.13076654523755,
+      "lon": 13.961981534957886,
+      "from": null,
+      "to": null
+    }
+  ]
+}
