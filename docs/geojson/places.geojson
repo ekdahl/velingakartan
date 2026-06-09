@@ -22,6 +22,26 @@
                      },
                      {
                          "properties":  {
+                                            "id":  "107",
+                                            "to":  null,
+                                            "hasSign":  true,
+                                            "name":  "Paris under Torp",
+                                            "type":  "Torp",
+                                            "hasText":  true,
+                                            "from":  null,
+                                            "folder":  "107. Paris under Torp"
+                                        },
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              13.96241,
+                                                              58.12469
+                                                          ],
+                                          "type":  "Point"
+                                      }
+                     },
+                     {
+                         "properties":  {
                                             "id":  "108",
                                             "to":  null,
                                             "hasSign":  true,
@@ -74,8 +94,8 @@
                          "type":  "Feature",
                          "geometry":  {
                                           "coordinates":  [
-                                                              13.9779836,
-                                                              58.1013146
+                                                              13.978357,
+                                                              58.101296
                                                           ],
                                           "type":  "Point"
                                       }
