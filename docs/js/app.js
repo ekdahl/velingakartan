@@ -223,18 +223,13 @@ async function startApp(config) {
           },
           {
             pointToLayer: function(feature, latlng) {
-              const type = feature.properties?.type;
+              const props = feature.properties;
+              const placeTitle = props.id != null ? `${props.id}. ${props.name}` : props.name;
               const marker = L.marker(latlng, {
-                icon: getPlaceIcon(type),
+                icon: getPlaceIcon(props?.type),
                 riseOnHover: true,
-                title: feature.properties?.name ?? undefined
+                title: placeTitle
               });
-
-              if (feature.properties?.id != null) {
-                const props = feature.properties;
-                const placeTitle = props.id != null ? `${props.id}. ${props.name}` : props.name;
-                marker.bindTooltip(placeTitle);
-              }
               return marker;
             },
             onEachFeature: function(feature, layer) {
@@ -272,7 +267,7 @@ async function startApp(config) {
             <button onclick="navigator.clipboard.writeText('${data.lat},${data.lng}')">Copy</button>
         `
     }
-}).addTo(map);
+  }).addTo(map);
   map.addControl(new L.Control.FullScreen());
 
   map.on('contextmenu', (e) => {
