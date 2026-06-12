@@ -1,0 +1,14 @@
+{
+  "id": "51",
+  "name": "Karlberg, soldattorp 848",
+  "type": "Soldattorp",
+  "hasSign": true,
+  "places": [
+    {
+      "lat": 58.11168,
+      "lon": 13.99502,
+      "from": null,
+      "to": null
+    }
+  ]
+}

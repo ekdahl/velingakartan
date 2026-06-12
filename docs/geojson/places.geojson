@@ -542,6 +542,66 @@
                      },
                      {
                          "properties":  {
+                                            "id":  "51",
+                                            "to":  null,
+                                            "hasSign":  true,
+                                            "name":  "Karlberg, soldattorp 848",
+                                            "type":  "Soldattorp",
+                                            "hasText":  true,
+                                            "from":  null,
+                                            "folder":  "51. Karlberg, soldattorp 848"
+                                        },
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              13.99502,
+                                                              58.11168
+                                                          ],
+                                          "type":  "Point"
+                                      }
+                     },
+                     {
+                         "properties":  {
+                                            "id":  "52",
+                                            "to":  null,
+                                            "hasSign":  true,
+                                            "name":  "Kranses, Velinga Åsa soldattorp 856",
+                                            "type":  "Soldattorp",
+                                            "hasText":  true,
+                                            "from":  null,
+                                            "folder":  "52. Kranses, Velinga Åsa soldattorp 856"
+                                        },
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              13.99578,
+                                                              58.11151
+                                                          ],
+                                          "type":  "Point"
+                                      }
+                     },
+                     {
+                         "properties":  {
+                                            "id":  "57",
+                                            "to":  null,
+                                            "hasSign":  false,
+                                            "name":  "Velinga Åsa, soldatboställe 847",
+                                            "type":  "Soldattorp",
+                                            "hasText":  true,
+                                            "from":  null,
+                                            "folder":  "57. Velinga Åsa, soldatboställe 847"
+                                        },
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              13.99783,
+                                                              58.11132
+                                                          ],
+                                          "type":  "Point"
+                                      }
+                     },
+                     {
+                         "properties":  {
                                             "id":  "61",
                                             "to":  null,
                                             "hasSign":  true,

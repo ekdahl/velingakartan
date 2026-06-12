@@ -10,6 +10,10 @@
 	fill: DarkRed;
 }
 
+.place-marker--soldattorp {
+	fill: DarkOliveGreen;
+}
+
 .place-marker--gard {
 	fill: FireBrick;
 }

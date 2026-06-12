@@ -1,0 +1,39 @@
+Soldatboställe under åren 1685-1904 för rotebönderna i Velingagårdarna, Mossagården och Aplagården samt Bidarehem i Daretorps socken. Skylt uppsatt 1990.
+
+Stugan hade ett rum och kök och revs till ved på 1950-talet. Grunden bortforslades 1965 av dåvarande ägaren Gustav Gustavsson. Bostället hade också ett fähus med en, enligt uppgift, mycket låg dörr. Idag är området uppodlat. Gustav Gustavsson lät bygga en lada cirka 200 meter söder om boplatsen.
+
+Under de nästan 220 åren som soldatbostället var i bruk var 19 soldater antagna för soldattorpet Karlberg. Sex av dessa bar namnet Apelberg, troligen en sammansättning av Aplagården och boplatsens höga läge på Velinga Åsa. Av Karlbergs soldater stupade en i Pommern år 1759. En annan fick sätta livet till i kriget mot Finland 1790. Under 1800-talets första del fanns i Karlberg sju soldater som var trumslagare och hautboister, spillopipsblåsare. Näst sista knekten på Karlberg var Karl Johan Storm, se Stormes nr 48.
+
+Siste knekten på Karlberg var Per Otto Jonsson Hill. Han var son till soldat Jonas Lithén som bodde på soldattorp nr 851 Bollebro, se nr 113, och sonson till soldat Peter Svan, soldattorpet Dälden nr 846, se nr 55.
+
+Per Otto Jonsson Hill var född i Daretorps socken år 1857. Han antogs till tjänst, nyss 21 år fyllda, den 1 oktober 1878. Hill tjänstgjorde fram till den 15 december 1904 då han begärt avsked för att skaffa sig en bättre utkomst. Från Skaraborgsregementet ges 47-åringen vitsorden: ”under tjänstetiden sig utmärkt väl skickat.” Indelningsverket hade då varit avskaffat sen 3 år. Hill fick därefter en tidsbegränsad pension från Kungliga Skaraborgs regementes Enskilda Pensionsinrättning. Från 1/1 1905 till 1/11 1908 erhöll han en pension på sex kronor per år.
+
+Per Otto Hill och hans hustru Kristina, som kom från Tiarp, gifte sig 1881. Med åren födde sedan Kristina 10 barn varav tre pojkar dog i unga år. De fyra döttrarna hette Ellen, Sara, Ester och Anna. Två söner, Artur och Karl, utvandrade som unga till Amerika. Yngsta sonen, Bertil föddes 1902.
+
+Efter mordet på grannen, soldat Norén på Velinga Åsa, som bragdes om livet vid Romarehem år 1901, ville Hill inte bo kvar på Karlberg. Han flyttade med sin familj till Suntak och sedan vidare till Härja. Sina sista år bodde Hill i Suntakstan.
+
+Efter Hill flyttade ”Rättas-Karl” in i Karlberg tillsammans med sin hustru Klara, som i det närmaste var blind. 1927 sålde de torpet till ”Skinn-Karl”, Carl Johansson i Storegården. Fem år senare bytte torpet åter ägare och denna gång hette köparen Verner Johansson i Ekegården. Hyresgäst i Karlberg under de här åren var Augusta Gustavsson. Den siste som bodde i torpet var Lars Sanfrid Blom från Klockaregården.
+
+## Soldatlängden för Karlberg
+
+- Lars Eriksson, antagen 13/4 1685, kvar 1706
+- Lars Torstensson Skata, senare med efternamnet Mossberg. Född 1686. Antagen 1709, avsked 1720 på grund av sjuklighet.
+- Lars Larsson Apelberg, född 1697. Antagen 1721, avsked 1741, på grund av synskador.
+- Bengt Gunnarsson Apelberg, född 1706. Antagen 1741, död i soldatbostället 1742.
+- Sven Svensson Apelberg, född 1710. Antagen 1742, död december 1742 i soldatbostället.
+- Jonas Gabrielsson Apelberg, född 1724. Antagen 1743, död 1759 vid stormningen av Wollin under kriget i Pommern.
+- Anders Larsson Apelberg, född 1739 i Daretorp, son till Lars Älgfot på soldatboställe nr 844. Antagen 1760, kvar 1789.
+- Peter Apelberg, död 1790 under kriget i Finland.
+- Gustav Andersson Band, född 1772 i Gullskog, Gustav Adolf socken. Antagen 1792, överflyttas till nr 859 Havsjöberg, Daretorp 1802.
+- Johannes Dahlqvist, född 1778 i Hjulåsen, Agnetorp. Antagen 1791 för nr 142 Klövagården Åsle. Överflyttad till Karlberg 1803. Avförd 1805.
+- Åren 1805–1811 var soldattorpsnumret anslaget till musikkassan.
+- Åren 1812–1816 till underofficerares avlöning.
+- Jonas Ek, född 1798 i Österplana. Antagen 1817, år 1818 står han omnämnd som trumslagare, 1822 som hauboist. Blev befodrad till rustmästare 1819. Avsked 1826.
+- Mattias Kornelius Gerhard Weltzer, född 1798 i Hamburg. Förflyttad till Karlberg 1826 från extra hautboist med kontantlön. Rustmästare. 1827 överförd till 1:e trumslagares indelning vid kompaniet.
+- Anders Fredman, född 1805 i Djursätra, Värsås. Antagen 1818 för nr 840, Kvistegården, Daretorp. Överförd 1827 från Vilske kompani. Hauboist, rustmästare. Överförd 1827 till 1:a trumslagares indelning vid Förstemajorens (Höjentorps) kompani.
+- Jacob Larsson Forte, född 1812 i Kättarps soldattorp, Fridene. Son till korpral Lars Fri, nr 882. Antagen 1828, trumslagare. Överförd 1832 till soldattorp nr 44, Hornborga Stommen, vid Livkompaniet.
+- Karl Adolf Dalgren, född 1806 i Kyrkefalla. Överförd 1832 från soldattorp nr 774, Stora Långaskede, Sventorp. Hade också tjänstgjort för nr 773 i samma socken. Furir. Överförd till nr 771 i Kyrkefalla den 1833.
+- Anders Gustav Larm, född 1806 i Kohagen under Sventorp Västergården, Sventorps socken. Antagen 11/5 1824 vid Överstelöjtnantens (S Vadsbo) kompani. Överförd 1833 från soldattorp nr 884 Ekåsen i Korsberga socken. Trumslagare. Avsked 1843 på grund av hälta. Hade tjänat väl.
+- Otto Knut Ström, (tidigare Petersson) född 1830 i Mariestad. Antagen 1844. Trumslagare. Överförd 1847 till soldattorp nr 899 Kulle, Agnetorps socken.
+- Karl Johan Gustavsson Storm, född 1829 i Långeryd nr 866, Härja. Son till soldat Gustav Glad. Antagen 1848. Avsked 1878. ”Tjänat mindre väl”. Anmäld till underhåll. Död 1907 i Ljunghem, Velinga.
+- Per Otto Jonsson Hill, född 1857 i Storegårdens soldatboställe nr 851, Velinga. Son till soldat Jonas Lithén. Antagen 1878, avsked 1904. Död 1947 i Jonstorp, Flata Brogården, Suntak.
