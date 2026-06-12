@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" saveDateTime="2026-06-02T16:59:58" saveUser="Fredrik" saveUserFull="Fredrik" version="4.0.2-Norrköping">
+<qgis projectname="" saveDateTime="2026-06-05T12:49:58" saveUser="Fredrik" saveUserFull="Fredrik" version="4.0.2-Norrköping">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -35,7 +35,7 @@
     <customproperties>
       <Option/>
     </customproperties>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" id="rak2_52414b5f4a3131322d34332d3235_1_1_modifierad2_bff97b01_12a5_41eb_8cf1_7cf9455d5d38" legend_exp="" legend_split_behavior="0" name="rak2_52414b5f4a3131322d34332d3235_1_1_modifierad2" patch_size="-1,-1" providerKey="gdal" source="../../../build/maps/häradsekonomiska_kartan/georef/rak2_52414b5f4a3131322d34332d3235_1_1_modifierad2.tif">
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="rak2_52414b5f4a3131322d34332d3235_1_1_modifierad_960f9a4f_dc57_4f7d_8ad2_ae2dbcebf0c3" legend_exp="" legend_split_behavior="0" name="rak2_52414b5f4a3131322d34332d3235_1_1_modifierad" patch_size="-1,-1" providerKey="gdal" source="../../../build/maps/häradsekonomiska_kartan/rak2_52414b5f4a3131322d34332d3235_1_1_modifierad.tif">
       <customproperties>
         <Option/>
       </customproperties>
@@ -45,21 +45,15 @@
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="rak2_52414b5f4a3131322d34332d3235_1_1_f76f4366_b602_4128_9e3b_3cf5b3d36cdf" legend_exp="" legend_split_behavior="0" name="rak2_52414b5f4a3131322d34332d3235_1_1.vrt" patch_size="-1,-1" providerKey="gdal" source="../../../build/maps/häradsekonomiska_kartan/georef/rak2_52414b5f4a3131322d34332d3235_1_1.vrt">
-      <customproperties>
-        <Option/>
-      </customproperties>
-    </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" id="_86452ecb_da48_4603_a9f3_b2871b60e470" legend_exp="" legend_split_behavior="0" name="Nedtonad" patch_size="-1,-1" providerKey="wms" source="http-header:referer=&amp;type=xyz&amp;url=https%3A%2F%2Fminkarta.lantmateriet.se%2Fmap%2Ftopowebbcache%3Flayer%3Dtopowebb_nedtonad%26tilematrixset%3D3857%26Service%3DWMTS%26Request%3DGetTile%26TileMatrix%3D%7Bz%7D%26TileCol%3D%7Bx%7D%26TileRow%3D%7By%7D&amp;zmax=18&amp;zmin=0">
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="_86452ecb_da48_4603_a9f3_b2871b60e470" legend_exp="" legend_split_behavior="0" name="Nedtonad" patch_size="-1,-1" providerKey="wms" source="crs=EPSG%3A3857&amp;format&amp;type=xyz&amp;url=https%3A%2F%2Fminkarta.lantmateriet.se%2Fmap%2Ftopowebbcache%3Flayer%3Dtopowebb_nedtonad%26tilematrixset%3D3857%26Service%3DWMTS%26Request%3DGetTile%26TileMatrix%3D%7Bz%7D%26TileCol%3D%7Bx%7D%26TileRow%3D%7By%7D&amp;zmax=18&amp;zmin=0&amp;http-header:referer=">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
     <custom-order enabled="0">
       <item>_86452ecb_da48_4603_a9f3_b2871b60e470</item>
-      <item>rak2_52414b5f4a3131322d34332d3235_1_1_f76f4366_b602_4128_9e3b_3cf5b3d36cdf</item>
       <item>_28936c93_bc10_44bc_96ea_ce4bb3c8d481</item>
-      <item>rak2_52414b5f4a3131322d34332d3235_1_1_modifierad2_bff97b01_12a5_41eb_8cf1_7cf9455d5d38</item>
+      <item>rak2_52414b5f4a3131322d34332d3235_1_1_modifierad_960f9a4f_dc57_4f7d_8ad2_ae2dbcebf0c3</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings enabled="0" intersection-snapping="0" maxScale="0" minScale="0" mode="2" scaleDependencyMode="0" self-snapping="0" tolerance="12" type="1" unit="1">
@@ -70,10 +64,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>433010.36186144698876888</xmin>
-      <ymin>6436193.58087000623345375</ymin>
-      <xmax>445106.30328050081152469</xmax>
-      <ymax>6445267.0146922804415226</ymax>
+      <xmin>441192.71174803923349828</xmin>
+      <ymin>6439404.19841442909091711</ymin>
+      <xmax>444012.74328713479917496</xmax>
+      <ymax>6441519.56659125443547964</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -94,19 +88,14 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="rak2_52414b5f4a3131322d34332d3235_1_1_modifierad2" open="true" showFeatureCount="0">
+    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="rak2_52414b5f4a3131322d34332d3235_1_1_modifierad" open="true" showFeatureCount="0">
       <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" layerid="rak2_52414b5f4a3131322d34332d3235_1_1_modifierad2_bff97b01_12a5_41eb_8cf1_7cf9455d5d38" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="rak2_52414b5f4a3131322d34332d3235_1_1_modifierad_960f9a4f_dc57_4f7d_8ad2_ae2dbcebf0c3" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer checked="Qt::Checked" drawingOrder="-1" name="socken" open="true" showFeatureCount="0">
       <filegroup hidden="false" open="true">
         <legendlayerfile isInOverview="0" layerid="_28936c93_bc10_44bc_96ea_ce4bb3c8d481" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer checked="Qt::Unchecked" drawingOrder="-1" name="rak2_52414b5f4a3131322d34332d3235_1_1.vrt" open="true" showFeatureCount="0">
-      <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" layerid="rak2_52414b5f4a3131322d34332d3235_1_1_f76f4366_b602_4128_9e3b_3cf5b3d36cdf" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer checked="Qt::Checked" drawingOrder="-1" name="Nedtonad" open="true" showFeatureCount="0">
@@ -119,10 +108,10 @@
   <mapcanvas annotationsVisible="1" name="georefCanvas">
     <units>unknown</units>
     <extent>
-      <xmin>1737.69938169617034873</xmin>
-      <ymin>-3375.0464285056746121</ymin>
-      <xmax>2480.19938169617034873</xmax>
-      <ymax>-2818.17142850567279311</ymax>
+      <xmin>2583.52523659305597903</xmin>
+      <ymin>-3301.13860410094093822</ymin>
+      <xmax>2954.77523659305597903</xmax>
+      <ymax>-3022.70110410094093822</ymax>
     </extent>
     <rotation>0</rotation>
     <rendermaptile>0</rendermaptile>
@@ -368,7 +357,7 @@
         <provider>
           <resampling enabled="false" maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour"/>
         </provider>
-        <rasterrenderer alphaBand="-1" band="1" nodataColor="" opacity="0.625" type="singlebandcolordata">
+        <rasterrenderer alphaBand="-1" band="1" nodataColor="" opacity="1" type="singlebandcolordata">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -401,7 +390,7 @@
         <ymax>85.05112877980660357</ymax>
       </wgs84extent>
       <id>_86452ecb_da48_4603_a9f3_b2871b60e470</id>
-      <datasource>http-header:referer=&amp;type=xyz&amp;url=https%3A%2F%2Fminkarta.lantmateriet.se%2Fmap%2Ftopowebbcache%3Flayer%3Dtopowebb_nedtonad%26tilematrixset%3D3857%26Service%3DWMTS%26Request%3DGetTile%26TileMatrix%3D%7Bz%7D%26TileCol%3D%7Bx%7D%26TileRow%3D%7By%7D&amp;zmax=18&amp;zmin=0</datasource>
+      <datasource>crs=EPSG%3A3857&amp;format&amp;type=xyz&amp;url=https%3A%2F%2Fminkarta.lantmateriet.se%2Fmap%2Ftopowebbcache%3Flayer%3Dtopowebb_nedtonad%26tilematrixset%3D3857%26Service%3DWMTS%26Request%3DGetTile%26TileMatrix%3D%7Bz%7D%26TileCol%3D%7Bx%7D%26TileRow%3D%7By%7D&amp;zmax=18&amp;zmin=0&amp;http-header:referer=</datasource>
       <layername>Nedtonad</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -590,239 +579,20 @@
     </maplayer>
     <maplayer autoRefreshMode="Disabled" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" layerType="Raster" legendPlaceholderImage="" maxScale="0" minScale="1e+08" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" type="raster">
       <extent>
-        <xmin>432833.1370376946288161</xmin>
-        <ymin>6436201.18261902499943972</ymin>
-        <xmax>445000.82588592550018802</xmax>
-        <ymax>6445363.79086627718061209</ymax>
+        <xmin>432849.80812208505813032</xmin>
+        <ymin>6436138.19532312452793121</ymin>
+        <xmax>444965.35113354673376307</xmax>
+        <ymax>6445431.70819070935249329</ymax>
       </extent>
       <wgs84extent>
-        <xmin>13.85904943307144244</xmin>
-        <ymin>58.06219841920198377</ymin>
-        <xmax>14.06785438333495897</xmax>
-        <ymax>58.14616086356156188</ymax>
+        <xmin>13.85931304975017042</xmin>
+        <ymin>58.06163530517373061</ymin>
+        <xmax>14.06726798310508819</xmax>
+        <ymax>58.14676639086034271</ymax>
       </wgs84extent>
-      <id>rak2_52414b5f4a3131322d34332d3235_1_1_f76f4366_b602_4128_9e3b_3cf5b3d36cdf</id>
-      <datasource>../../../build/maps/häradsekonomiska_kartan/georef/rak2_52414b5f4a3131322d34332d3235_1_1.vrt</datasource>
-      <layername>rak2_52414b5f4a3131322d34332d3235_1_1.vrt</layername>
-      <srs>
-        <spatialrefsys nativeFormat="Wkt">
-          <wkt>PROJCRS["SWEREF99 TM",BASEGEOGCRS["SWEREF99",DATUM["SWEREF99",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4619]],CONVERSION["SWEREF99 TM",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",15,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (N)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (E)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Sweden - onshore and offshore."],BBOX[54.96,10.03,69.07,24.17]],ID["EPSG",3006]]</wkt>
-          <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-          <srsid>971</srsid>
-          <srid>3006</srid>
-          <authid>EPSG:3006</authid>
-          <description>SWEREF99 TM</description>
-          <projectionacronym>utm</projectionacronym>
-          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type>dataset</type>
-        <title></title>
-        <abstract></abstract>
-        <links/>
-        <dates/>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys nativeFormat="Wkt">
-            <wkt>PROJCRS["SWEREF99 TM",BASEGEOGCRS["SWEREF99",DATUM["SWEREF99",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4619]],CONVERSION["SWEREF99 TM",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",15,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (N)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (E)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Sweden - onshore and offshore."],BBOX[54.96,10.03,69.07,24.17]],ID["EPSG",3006]]</wkt>
-            <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-            <srsid>971</srsid>
-            <srid>3006</srid>
-            <authid>EPSG:3006</authid>
-            <description>SWEREF99 TM</description>
-            <projectionacronym>utm</projectionacronym>
-            <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-      </resourceMetadata>
-      <provider>gdal</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="0"/>
-        <noDataList bandNo="2" useSrcNoData="0"/>
-        <noDataList bandNo="3" useSrcNoData="0"/>
-        <noDataList bandNo="4" useSrcNoData="0"/>
-      </noData>
-      <map-layer-style-manager current="standard">
-        <map-layer-style name="standard"/>
-      </map-layer-style-manager>
-      <flags>
-        <Identifiable>1</Identifiable>
-        <Removable>1</Removable>
-        <Searchable>1</Searchable>
-        <Private>0</Private>
-      </flags>
-      <temporal bandNumber="1" enabled="0" fetchMode="0" mode="0">
-        <fixedRange>
-          <start></start>
-          <end></end>
-        </fixedRange>
-      </temporal>
-      <elevation band="1" enabled="0" mode="RepresentsElevationSurface" symbology="Line" zoffset="0" zscale="1">
-        <data-defined-properties>
-          <Option type="Map">
-            <Option name="name" type="QString" value=""/>
-            <Option name="properties"/>
-            <Option name="type" type="QString" value="collection"/>
-          </Option>
-        </data-defined-properties>
-        <profileLineSymbol>
-          <symbol alpha="1" clip_to_extent="1" force_rhr="0" frame_rate="10" is_animated="0" name="" type="line">
-            <data_defined_properties>
-              <Option type="Map">
-                <Option name="name" type="QString" value=""/>
-                <Option name="properties"/>
-                <Option name="type" type="QString" value="collection"/>
-              </Option>
-            </data_defined_properties>
-            <layer class="SimpleLine" enabled="1" id="{490a153c-45f4-432e-ac69-e8757282122d}" locked="0" pass="0">
-              <Option type="Map">
-                <Option name="align_dash_pattern" type="QString" value="0"/>
-                <Option name="capstyle" type="QString" value="square"/>
-                <Option name="customdash" type="QString" value="5;2"/>
-                <Option name="customdash_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="customdash_unit" type="QString" value="MM"/>
-                <Option name="dash_pattern_offset" type="QString" value="0"/>
-                <Option name="dash_pattern_offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
-                <Option name="draw_inside_polygon" type="QString" value="0"/>
-                <Option name="joinstyle" type="QString" value="bevel"/>
-                <Option name="line_color" type="QString" value="232,113,141,255,rgb:0.9098039,0.4431373,0.5529412,1"/>
-                <Option name="line_style" type="QString" value="solid"/>
-                <Option name="line_width" type="QString" value="0.6"/>
-                <Option name="line_width_unit" type="QString" value="MM"/>
-                <Option name="offset" type="QString" value="0"/>
-                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="offset_unit" type="QString" value="MM"/>
-                <Option name="ring_filter" type="QString" value="0"/>
-                <Option name="trim_distance_end" type="QString" value="0"/>
-                <Option name="trim_distance_end_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="trim_distance_end_unit" type="QString" value="MM"/>
-                <Option name="trim_distance_start" type="QString" value="0"/>
-                <Option name="trim_distance_start_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="trim_distance_start_unit" type="QString" value="MM"/>
-                <Option name="tweak_dash_pattern_on_corners" type="QString" value="0"/>
-                <Option name="use_custom_dash" type="QString" value="0"/>
-                <Option name="width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-              </Option>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
-                  <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
-                </Option>
-              </data_defined_properties>
-            </layer>
-          </symbol>
-        </profileLineSymbol>
-        <profileFillSymbol>
-          <symbol alpha="1" clip_to_extent="1" force_rhr="0" frame_rate="10" is_animated="0" name="" type="fill">
-            <data_defined_properties>
-              <Option type="Map">
-                <Option name="name" type="QString" value=""/>
-                <Option name="properties"/>
-                <Option name="type" type="QString" value="collection"/>
-              </Option>
-            </data_defined_properties>
-            <layer class="SimpleFill" enabled="1" id="{d54b19ce-33ec-48b9-8334-19efa534d287}" locked="0" pass="0">
-              <Option type="Map">
-                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="232,113,141,255,rgb:0.9098039,0.4431373,0.5529412,1"/>
-                <Option name="joinstyle" type="QString" value="bevel"/>
-                <Option name="offset" type="QString" value="0,0"/>
-                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="offset_unit" type="QString" value="MM"/>
-                <Option name="outline_color" type="QString" value="35,35,35,255,rgb:0.1372549,0.1372549,0.1372549,1"/>
-                <Option name="outline_style" type="QString" value="no"/>
-                <Option name="outline_width" type="QString" value="0.26"/>
-                <Option name="outline_width_unit" type="QString" value="MM"/>
-                <Option name="style" type="QString" value="solid"/>
-              </Option>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
-                  <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
-                </Option>
-              </data_defined_properties>
-            </layer>
-          </symbol>
-        </profileFillSymbol>
-      </elevation>
-      <customproperties>
-        <Option type="Map">
-          <Option name="identify/format" type="QString" value="Value"/>
-        </Option>
-      </customproperties>
-      <mapTip enabled="1"></mapTip>
-      <pipe-data-defined-properties>
-        <Option type="Map">
-          <Option name="name" type="QString" value=""/>
-          <Option name="properties"/>
-          <Option name="type" type="QString" value="collection"/>
-        </Option>
-      </pipe-data-defined-properties>
-      <pipe>
-        <provider>
-          <resampling enabled="false" maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour"/>
-        </provider>
-        <rasterrenderer alphaBand="4" blueBand="3" greenBand="2" nodataColor="" opacity="0.606" redBand="1" type="multibandcolor">
-          <rasterTransparency/>
-          <minMaxOrigin>
-            <limits>MinMax</limits>
-            <extent>WholeRaster</extent>
-            <statAccuracy>Estimated</statAccuracy>
-            <cumulativeCutLower>0.02</cumulativeCutLower>
-            <cumulativeCutUpper>0.98</cumulativeCutUpper>
-            <stdDevFactor>2</stdDevFactor>
-          </minMaxOrigin>
-          <redContrastEnhancement>
-            <minValue>11</minValue>
-            <maxValue>255</maxValue>
-            <algorithm>NoEnhancement</algorithm>
-          </redContrastEnhancement>
-          <greenContrastEnhancement>
-            <minValue>12</minValue>
-            <maxValue>254</maxValue>
-            <algorithm>NoEnhancement</algorithm>
-          </greenContrastEnhancement>
-          <blueContrastEnhancement>
-            <minValue>12</minValue>
-            <maxValue>245</maxValue>
-            <algorithm>NoEnhancement</algorithm>
-          </blueContrastEnhancement>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0" gamma="1"/>
-        <huesaturation colorizeBlue="128" colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeStrength="100" grayscaleMode="0" invertColors="0" saturation="0"/>
-        <rasterresampler maxOversampling="2"/>
-        <resamplingStage>resamplingFilter</resamplingStage>
-      </pipe>
-      <blendMode>0</blendMode>
-      <legend/>
-    </maplayer>
-    <maplayer autoRefreshMode="Disabled" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" layerType="Raster" legendPlaceholderImage="" maxScale="0" minScale="1e+08" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" type="raster">
-      <extent>
-        <xmin>432851.77118952589808032</xmin>
-        <ymin>6436134.93731044325977564</ymin>
-        <xmax>444964.81341934017837048</xmax>
-        <ymax>6445438.98442643322050571</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>13.85934429909933741</xmin>
-        <ymin>58.06160634476050575</ymin>
-        <xmax>14.06725963405122037</xmax>
-        <ymax>58.14683166925129854</ymax>
-      </wgs84extent>
-      <id>rak2_52414b5f4a3131322d34332d3235_1_1_modifierad2_bff97b01_12a5_41eb_8cf1_7cf9455d5d38</id>
-      <datasource>../../../build/maps/häradsekonomiska_kartan/georef/rak2_52414b5f4a3131322d34332d3235_1_1_modifierad2.tif</datasource>
-      <layername>rak2_52414b5f4a3131322d34332d3235_1_1_modifierad2</layername>
+      <id>rak2_52414b5f4a3131322d34332d3235_1_1_modifierad_960f9a4f_dc57_4f7d_8ad2_ae2dbcebf0c3</id>
+      <datasource>../../../build/maps/häradsekonomiska_kartan/rak2_52414b5f4a3131322d34332d3235_1_1_modifierad.tif</datasource>
+      <layername>rak2_52414b5f4a3131322d34332d3235_1_1_modifierad</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
           <wkt>PROJCRS["SWEREF99 TM",BASEGEOGCRS["SWEREF99",DATUM["SWEREF99",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4619]],CONVERSION["SWEREF99 TM",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",15,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (N)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (E)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Sweden - onshore and offshore."],BBOX[54.96,10.03,69.07,24.17]],ID["EPSG",3006]]</wkt>
@@ -900,7 +670,7 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" enabled="1" id="{ccb2b6c9-ce1a-4c1a-959d-a05eb62a69db}" locked="0" pass="0">
+            <layer class="SimpleLine" enabled="1" id="{2c172779-6dab-446b-901a-fdfe0002670c}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" type="QString" value="0"/>
                 <Option name="capstyle" type="QString" value="square"/>
@@ -912,7 +682,7 @@
                 <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
                 <Option name="draw_inside_polygon" type="QString" value="0"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
-                <Option name="line_color" type="QString" value="232,113,141,255,rgb:0.9098039,0.4431373,0.5529412,1"/>
+                <Option name="line_color" type="QString" value="152,125,183,255,rgb:0.5960785,0.4901961,0.7176471,1"/>
                 <Option name="line_style" type="QString" value="solid"/>
                 <Option name="line_width" type="QString" value="0.6"/>
                 <Option name="line_width_unit" type="QString" value="MM"/>
@@ -949,10 +719,10 @@
                 <Option name="type" type="QString" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" enabled="1" id="{c87e8ef5-9108-4917-ad48-c0b8380ca58e}" locked="0" pass="0">
+            <layer class="SimpleFill" enabled="1" id="{e2ec8f71-30b7-4601-91a2-9f093869c102}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="232,113,141,255,rgb:0.9098039,0.4431373,0.5529412,1"/>
+                <Option name="color" type="QString" value="152,125,183,255,rgb:0.5960785,0.4901961,0.7176471,1"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
@@ -991,7 +761,7 @@
         <provider>
           <resampling enabled="false" maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour"/>
         </provider>
-        <rasterrenderer alphaBand="-1" blueBand="3" greenBand="2" nodataColor="" opacity="0.191" redBand="1" type="multibandcolor">
+        <rasterrenderer alphaBand="-1" blueBand="3" greenBand="2" nodataColor="" opacity="0.301" redBand="1" type="multibandcolor">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>MinMax</limits>
@@ -1002,17 +772,17 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
           <redContrastEnhancement>
-            <minValue>8</minValue>
+            <minValue>12</minValue>
             <maxValue>255</maxValue>
             <algorithm>NoEnhancement</algorithm>
           </redContrastEnhancement>
           <greenContrastEnhancement>
             <minValue>12</minValue>
-            <maxValue>254</maxValue>
+            <maxValue>252</maxValue>
             <algorithm>NoEnhancement</algorithm>
           </greenContrastEnhancement>
           <blueContrastEnhancement>
-            <minValue>9</minValue>
+            <minValue>8</minValue>
             <maxValue>244</maxValue>
             <algorithm>NoEnhancement</algorithm>
           </blueContrastEnhancement>
@@ -1028,9 +798,8 @@
   </projectlayers>
   <layerorder>
     <layer id="_86452ecb_da48_4603_a9f3_b2871b60e470"/>
-    <layer id="rak2_52414b5f4a3131322d34332d3235_1_1_f76f4366_b602_4128_9e3b_3cf5b3d36cdf"/>
     <layer id="_28936c93_bc10_44bc_96ea_ce4bb3c8d481"/>
-    <layer id="rak2_52414b5f4a3131322d34332d3235_1_1_modifierad2_bff97b01_12a5_41eb_8cf1_7cf9455d5d38"/>
+    <layer id="rak2_52414b5f4a3131322d34332d3235_1_1_modifierad_960f9a4f_dc57_4f7d_8ad2_ae2dbcebf0c3"/>
   </layerorder>
   <labelEngineSettings/>
   <properties name="properties">
@@ -1185,7 +954,7 @@
   <Sensors/>
   <ProjectViewSettings UseProjectScales="0" rotation="0">
     <Scales/>
-    <DefaultViewExtent xmax="445106.30328050081152469" xmin="433010.36186144698876888" ymax="6445911.88099110499024391" ymin="6435548.71457118168473244">
+    <DefaultViewExtent xmax="444012.74328713479917496" xmin="441192.71174803923349828" ymax="6441699.0189469950273633" ymin="6439224.74605868849903345">
       <spatialrefsys nativeFormat="Wkt">
         <wkt>PROJCRS["SWEREF99 TM",BASEGEOGCRS["SWEREF99",DATUM["SWEREF99",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4619]],CONVERSION["SWEREF99 TM",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",15,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (N)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (E)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Sweden - onshore and offshore."],BBOX[54.96,10.03,69.07,24.17]],ID["EPSG",3006]]</wkt>
         <proj4>+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -1199,7 +968,7 @@
       </spatialrefsys>
     </DefaultViewExtent>
   </ProjectViewSettings>
-  <ProjectStyleSettings DefaultSymbolOpacity="1" RandomizeDefaultSymbolColor="1" colorModel="Rgb" iccProfileId="attachment:///QGIS4-HkbbOH" projectStyleId="attachment:///wSIvjp_styles.db">
+  <ProjectStyleSettings DefaultSymbolOpacity="1" RandomizeDefaultSymbolColor="1" colorModel="Rgb" iccProfileId="attachment:///QGIS4-HkbbOH" projectStyleId="attachment:///gEiYtB_styles.db">
     <databases/>
   </ProjectStyleSettings>
   <ProjectTimeSettings cumulativeTemporalRange="0" frameRate="1" timeStep="1" timeStepUnit="h" totalMovieFrames="100"/>
