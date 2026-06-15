@@ -186,7 +186,7 @@
                                             "to":  null,
                                             "hasSign":  true,
                                             "name":  "Sågeplan",
-                                            "type":  null,
+                                            "type":  "Kulturhistorisk plats",
                                             "hasText":  false,
                                             "from":  null,
                                             "folder":  "160. Sågeplan"
@@ -206,7 +206,7 @@
                                             "to":  null,
                                             "hasSign":  true,
                                             "name":  "Gröneplan",
-                                            "type":  null,
+                                            "type":  "Kulturhistorisk plats",
                                             "hasText":  false,
                                             "from":  null,
                                             "folder":  "161. Gröneplan"
@@ -226,7 +226,7 @@
                                             "to":  null,
                                             "hasSign":  true,
                                             "name":  "Veatorget (\"Lorana veatorg\")",
-                                            "type":  null,
+                                            "type":  "Kulturhistorisk plats",
                                             "hasText":  true,
                                             "from":  null,
                                             "folder":  "162. Veatorget, ”Lorana veatorg"
@@ -246,7 +246,7 @@
                                             "to":  null,
                                             "hasSign":  true,
                                             "name":  "Prästasten",
-                                            "type":  null,
+                                            "type":  "Kulturhistorisk plats",
                                             "hasText":  true,
                                             "from":  null,
                                             "folder":  "163. Prästasten"
@@ -306,10 +306,10 @@
                                             "to":  null,
                                             "hasSign":  true,
                                             "name":  "Tallestocken",
-                                            "type":  null,
+                                            "type":  "Backstuga",
                                             "hasText":  true,
                                             "from":  null,
-                                            "folder":  "18. Tallestocken"
+                                            "folder":  "18. Tallestockens"
                                         },
                          "type":  "Feature",
                          "geometry":  {
@@ -522,6 +522,26 @@
                      },
                      {
                          "properties":  {
+                                            "id":  "47",
+                                            "to":  null,
+                                            "hasSign":  true,
+                                            "name":  "Svaneborg, Klockarebolet",
+                                            "type":  "Torp",
+                                            "hasText":  true,
+                                            "from":  null,
+                                            "folder":  "47. Svaneborg, Klockarebolet"
+                                        },
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              13.98976,
+                                                              58.11245
+                                                          ],
+                                          "type":  "Point"
+                                      }
+                     },
+                     {
+                         "properties":  {
                                             "id":  "5",
                                             "to":  null,
                                             "hasSign":  true,
@@ -626,7 +646,7 @@
                                             "to":  null,
                                             "hasSign":  null,
                                             "name":  "Aplagården",
-                                            "type":  null,
+                                            "type":  "Gård",
                                             "hasText":  false,
                                             "from":  null,
                                             "folder":  "Aplagården"
@@ -666,7 +686,7 @@
                                             "to":  null,
                                             "hasSign":  null,
                                             "name":  "Festplatsen",
-                                            "type":  null,
+                                            "type":  "Kulturhistorisk plats",
                                             "hasText":  false,
                                             "from":  null,
                                             "folder":  "Festplatsen"

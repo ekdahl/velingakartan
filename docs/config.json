@@ -31,6 +31,11 @@
 			"name": "Skola",
 			"layerName": "Skolor",
 			"placeMarker": "school.svg"
+		},
+		{
+			"name": "Kulturhistorisk plats",
+			"layerName": "Kulturhistoriska platser",
+			"placeMarker": "location-pin.svg"
 		}
 	],
 

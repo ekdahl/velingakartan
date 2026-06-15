@@ -1,0 +1,2 @@
+Liten stuga nära torpet Bengta. Skylt uppsatt 1989.
+I protokoll från laga förrättning 1876 uppges att Johanna Bengtsdotter, troligen en syster till Johannes på Bengta, innehar ägofigurerna 20 till och med 26 på karta från samma år. Protokollet säger vidare att delägarna i gården Ekekulla inte ställer villkor för innehavet för viss tid eller annorlunda bestämd innehavsrätt. Bibehållning eller upphörande av Johannas innehav beror endast på uppgörelse med de nya jordägarna.

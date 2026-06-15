@@ -1,0 +1,14 @@
+{
+  "id": "47",
+  "name": "Svaneborg, Klockarebolet",
+  "type": "Torp",
+  "hasSign": true,
+  "places": [
+    {
+      "lat": 58.11245,
+      "lon": 13.98976,
+      "from": null,
+      "to": null
+    }
+  ]
+}

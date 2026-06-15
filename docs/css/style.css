@@ -22,6 +22,10 @@
 	fill: RoyalBlue;
 }
 
+.place-marker--kulturhistorisk-plats {
+	fill: DarkSlateBlue;
+}
+
 .place-marker--default {
 	fill: SlateGray;
 }
