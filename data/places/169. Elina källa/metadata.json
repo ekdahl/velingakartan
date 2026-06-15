@@ -1,8 +1,8 @@
 {
   "id": "169",
   "name": "Elina källa",
-  "type": null,
-  "hasSign": false,
+  "type": "Kulturhistorisk plats",
+  "hasSign": true,
   "places": [
     {
       "lat": 58.0809764,
