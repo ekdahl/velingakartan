@@ -1,0 +1,3 @@
+Sågen låg på Mossagårdens marker och uppfördes omkring 1940 av byggmästare Elias Andersson. Skylt uppsatt 1990. Elias son Göran skötte sågen där man tog fram virke för Elias Anderssons byggnadsuppdrag. Man lönsågade även åt folk i bygden. Verksamheten inleddes under 1930-talet på den så kallade Sågeplanen, se nr 160, men flyttades senare.
+
+Idag finns inget kvar av sågen som bestod av en öppen byggnad med resta stolpar och tak. Utrustningen bestod av en sågbänk med klinga. Sågen drevs av en encylindrig tändkulemotor. Verksamhet pågick fram till 1961 då sågbänk och motor såldes.

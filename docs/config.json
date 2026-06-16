@@ -35,7 +35,8 @@
 		{
 			"name": "Kulturhistorisk plats",
 			"layerName": "Kulturhistoriska platser",
-			"placeMarker": "location-pin.svg"
+			"placeMarker": "location-pin.svg",
+			"iconAnchor": [ 16, 32 ]
 		}
 	],
 

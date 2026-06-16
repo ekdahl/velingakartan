@@ -1,0 +1,14 @@
+{
+  "id": "36",
+  "name": "Såg på Mossagården",
+  "type": "Kulturhistorisk plats",
+  "hasSign": true,
+  "places": [
+    {
+      "lat": 58.10549,
+      "lon": 13.96916,
+      "from": null,
+      "to": null
+    }
+  ]
+}

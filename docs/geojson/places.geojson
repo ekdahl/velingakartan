@@ -229,7 +229,7 @@
                                             "type":  "Kulturhistorisk plats",
                                             "hasText":  true,
                                             "from":  null,
-                                            "folder":  "162. Veatorget, ”Lorana veatorg"
+                                            "folder":  "162. Veatorget (Lorana veatorg)"
                                         },
                          "type":  "Feature",
                          "geometry":  {
@@ -264,9 +264,9 @@
                          "properties":  {
                                             "id":  "169",
                                             "to":  null,
-                                            "hasSign":  false,
+                                            "hasSign":  true,
                                             "name":  "Elina källa",
-                                            "type":  null,
+                                            "type":  "Kulturhistorisk plats",
                                             "hasText":  true,
                                             "from":  null,
                                             "folder":  "169. Elina källa"
@@ -476,6 +476,26 @@
                                           "coordinates":  [
                                                               13.9832450,
                                                               58.1064710
+                                                          ],
+                                          "type":  "Point"
+                                      }
+                     },
+                     {
+                         "properties":  {
+                                            "id":  "36",
+                                            "to":  null,
+                                            "hasSign":  true,
+                                            "name":  "Såg på Mossagården",
+                                            "type":  "Kulturhistorisk plats",
+                                            "hasText":  true,
+                                            "from":  null,
+                                            "folder":  "36. Såg på Mossagården"
+                                        },
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              13.96916,
+                                                              58.10549
                                                           ],
                                           "type":  "Point"
                                       }
