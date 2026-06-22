@@ -1,0 +1,14 @@
+{
+  "id": "16",
+  "name": "Stenbacken, Samla-Stavas",
+  "type": "Torp",
+  "hasSign": true,
+  "places": [
+    {
+      "lat": 58.093555,
+      "lon": 13.969380,
+      "from": null,
+      "to": null
+    }
+  ]
+}

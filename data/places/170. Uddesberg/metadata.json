@@ -1,0 +1,14 @@
+{
+  "id": "170",
+  "name": "Uddesberg",
+  "type": "Torp",
+  "hasSign": false,
+  "places": [
+    {
+      "lat": 58.09502,
+      "lon": 13.97461,
+      "from": null,
+      "to": null
+    }
+  ]
+}

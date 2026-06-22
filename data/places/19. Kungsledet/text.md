@@ -1,0 +1,3 @@
+Backstuga på Bergas ägor. Skylt uppsatt i ägogränsen, maj 1989.
+
+Stugan revs troligen i slutet av 1800-talet. Marken är uppodlad och inga spår finns efter någon bebyggelse. Enligt fältmätningskarta från 1877-1882 låg stugan mitt emellan två namngivna gärden. På västra sidan låg Kungaåkern och på östra sidan Templagärdet. Mitt emot boplatsen finns Norrbackens utfart till Bergavägen. Kungsledet kallades även för "Konges", Grindstugan, Templet och Kungagärdet. En hypotes är att Kungsledet var Berga egendoms grindstuga innan den nya grindstugan uppfördes år 1901.

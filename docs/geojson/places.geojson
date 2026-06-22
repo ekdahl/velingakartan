@@ -182,6 +182,26 @@
                      },
                      {
                          "properties":  {
+                                            "id":  "16",
+                                            "to":  null,
+                                            "hasSign":  true,
+                                            "name":  "Stenbacken, Samla-Stavas",
+                                            "type":  "Torp",
+                                            "hasText":  true,
+                                            "from":  null,
+                                            "folder":  "16. Stenbacken, Samla-Stavas"
+                                        },
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              13.969380,
+                                                              58.093555
+                                                          ],
+                                          "type":  "Point"
+                                      }
+                     },
+                     {
+                         "properties":  {
                                             "id":  "160",
                                             "to":  null,
                                             "hasSign":  true,
@@ -302,6 +322,26 @@
                      },
                      {
                          "properties":  {
+                                            "id":  "170",
+                                            "to":  null,
+                                            "hasSign":  false,
+                                            "name":  "Uddesberg",
+                                            "type":  "Torp",
+                                            "hasText":  true,
+                                            "from":  null,
+                                            "folder":  "170. Uddesberg"
+                                        },
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              13.97461,
+                                                              58.09502
+                                                          ],
+                                          "type":  "Point"
+                                      }
+                     },
+                     {
+                         "properties":  {
                                             "id":  "18",
                                             "to":  null,
                                             "hasSign":  true,
@@ -316,6 +356,26 @@
                                           "coordinates":  [
                                                               13.9851004,
                                                               58.0910217
+                                                          ],
+                                          "type":  "Point"
+                                      }
+                     },
+                     {
+                         "properties":  {
+                                            "id":  "19",
+                                            "to":  null,
+                                            "hasSign":  true,
+                                            "name":  "Kungsledet",
+                                            "type":  "Backstuga",
+                                            "hasText":  true,
+                                            "from":  null,
+                                            "folder":  "19. Kungsledet"
+                                        },
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "coordinates":  [
+                                                              13.96193,
+                                                              58.09537
                                                           ],
                                           "type":  "Point"
                                       }
@@ -816,26 +876,6 @@
                                           "coordinates":  [
                                                               14.0025402,
                                                               58.0921147
-                                                          ],
-                                          "type":  "Point"
-                                      }
-                     },
-                     {
-                         "properties":  {
-                                            "id":  null,
-                                            "to":  null,
-                                            "hasSign":  null,
-                                            "name":  "Uddesberg",
-                                            "type":  null,
-                                            "hasText":  true,
-                                            "from":  null,
-                                            "folder":  "Uddesberg"
-                                        },
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "coordinates":  [
-                                                              13.974645,
-                                                              58.0947862
                                                           ],
                                           "type":  "Point"
                                       }

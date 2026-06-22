@@ -1,0 +1,14 @@
+{
+  "id": "19",
+  "name": "Kungsledet",
+  "type": "Backstuga",
+  "hasSign": true,
+  "places": [
+    {
+      "lat": 58.09537,
+      "lon": 13.96193,
+      "from": null,
+      "to": null
+    }
+  ]
+}
