@@ -1,2 +1,94 @@
 Av socknen bekostad stuga på Velinga Backgården ”Prästegården”. Uppfördes på 1860-talet. Den revs 1917. Skylt uppsatt i maj 1989 vid västra vägkanten mitt emot Velinga kyrkogård.
+
 Platsen där huset en gång låg är idag åkermark. Backstugan var liten och hade torvtak. Den finns med på ett foto från 1904, taget från Mossagårdens trädgård mot kyrkan.
+
+## Anslag till bygge
+
+Familjen Nyman bestod av Johan född 1823, död 1893, Lovisa Jansdotter Törngren född 1821 och oäkta sonen August född 1844 som avflyttade 1864, samt döttrarna Matilda Charlotta född 1850 och Gustava Kristina född 1852. Döttrarna avflyttade till Stockholm 1873 respektive 1872.
+
+I Arvid Gustavssons bok ”Vår Västgötabygd” utgiven år 1962 finns ett utdrag från Velinge Fattigkassas protokoll. I detta står att läsa om familjens Nymans sjukresor till Mariestad och Falköping. För en körlön om 10 kronor skjutsade Jan, troligen Johnsson, i Vrågården föräldrarna till Mariestad. Till barnen inköptes mat för 7 kronor och 25 öre. Senare fick de tre barnen skjutsas till Falköpings Lasarett för en skjutspeng på 3 kronor.
+
+I protokollen står också att Johan Nyman tilldelats 5 kronor i bidrag för uppförande av en stuga.
+
+## Familjen Wigh
+
+År 1869 flyttade familjen Wigh in i Nymans stuga. Fadern Adolf, en före detta soldat, var född i Velinga år 1837. Hustrun Johanna Johansdotter var född i Grolanda år 1839. Vid inflyttningen hade paret tre barn: August Vilhelm född 1863, Karl Edvin född 1865 och Ida Matilda född 1868. Under åren fram till avflyttningen år 1891 berikades familjen med ytterligare fem barn: Augusta Josefina född 1871, Anna Maria född 1873, Adolf Erik född 1877, Ulla Elisabeth född 1880 och Alfrida Ottilia född 1884. Tre av de yngsta barnen fanns kvar i föräldrarnas vård vid avflyttningen.
+
+## Nymans stuga revs 1917
+
+Karin Larsson, född 1892, dotter i Mossagården, berättade att hon mindes två gummor som bodde i Nymans stuga. Det var Kajsa bortifrån Härjatrakten och Johanna som tidigare bott på ”Moses”. ”Moses” var en äldre backstuga som inte kunnat lokaliseras. Troligen låg stugan i backen ovanför kyrkan. Detta är den placering som Elias Andersson gett backstugan Moses.
+
+De båda kvinnorna, Kajsa och Johanna, finns med i kyrkböckerna som Anna Kajsa Andersdotter, piga från Lunsledet, se nr 136, och änkan Johanna Magnidotter. Kvinnorna avled i fattigstugan år 1907 respektive 1910. 
+
+Nymans stuga revs år 1917 och troligen kom timret till användning vid en utbyggnad av Prästegårdens ladugård. Först på 1920- talet bröts stugans grundstenar upp för att ingå i den nyare delen av kyrkogårdsmuren. En av dem som var med om att frakta bort grunden var Tage Lundberg, då brukare av Velinga Backgården ”Prästgården”.
+
+Under en period lämnades posten in i fattigstugan och närboende fick gå in där och hämta sina brev och försändelser. Det var inte ovanligt att någon av de boende i socknens fattigstuga, mot en låg ersättning, hade att sköta posthanteringen. Om detta berättas från andra socknar i trakten.
+
+## Utdrag ur husförhörslängderna för Nymans stuga och fattigstugan åren 1895- 1917
+
+Under dessa 22 år har totalt 34 personer bott i fattigstugan under längre eller kortare perioder.
+
+- Änkan Emma Kristina Sandberg född 1842, död 1914
+- Dottern Amanda Elisabeth född 1882, avflyttad till Tidaholm 1898
+- Pigan Maria Charlotta Johansdotter född 1845 (blind)
+- Karl Svensson född 1815, avflyttad 1906
+- Arbetaren Lars Larsson född i Velinga 1827, avflyttad 1897
+- Hans hustru Gustava Andersdotter född i Velinga 1844, avflyttad 1896
+- Barnen
+  - Elisabeth född 1876, avflyttad 1896
+  - Lars Emil född 1880, avflyttad 1896
+  - Axel Enock född 1883, avflyttad 1900
+  - Anna Emerentia född 1890, avflyttad 1905
+- Augusta Larsdotter född 1860, kom till Velinga 1894 och ”försvann” 1916
+- Sonen	Gustav Adolf född 1890, avflyttad 1909
+- Gustava Andersdotter född 1844, avflyttad 1912
+- Hulda Olivia Sandberg född 1879, avflyttad 1912
+- Jonas Andersson född 1820, död 1903
+- Pigan Johanna Lovisa Gustava Glad född 1833, död 1898
+- Johannes Pettersson född 1815, död 1900
+- Fd soldat Anders G Wigh född 1834, kom från Ljungkullen, nr 33, till fattigstugan år 1900, död 1909
+- Hans hustru Sara Kron död 1900
+- Sadelmakare Alexander Björkman född 1820, död 1905, tidigare bosatt i Björkmans nr 116.
+- Viktor Jansson född 1891, avflyttad 1911
+- Karl Johan Alvar Jansson född 1897, avflyttad 1913
+- Pigan Lisa Johansdotter född 1823, död 1908
+- Änkan Johanna Magnidotter född 1822, död 1910
+- Pigan Anna Kajsa Andersdotter född 1825, kom från Lunsledet 1904, död 1907
+- Änkan Kajsa Gustafsson född 1817, död 1910
+- Arbetaren Gustaf Karlsson född 1834, död 1920
+- Karl Valerius Karlsson född 1888, död 1911, kom från Södra Mon nr 121
+- Soldatdotter Matilda Rosina Hallberg född 1884, avflyttad 1906
+- Augusta Josefina Alexandersson född 1884, död 1915
+- Axel Wilhelm Alexandersson född 1879, död 1914
+- Gustava Samuelsdotter (Samla-Stava) född 1839, tidigare bosatt i Stenbacken nr 16. Död 1914 av åldersavtagande i Haga sjukhem Tidaholm.
+- Pensionstagare Viktor Fingal född 1858.
+- Hans hustru 	Lovisa Pettersdotter född 1852. Viktor och Lovisa hade flyttat runt en del i bygden och bland annat bott i Påskabacken nr 28 och en backstuga på Backgårdens marker, nr 4 B.
+
+## Kommunalstämmans beslut om ny fattigstuga
+
+År 1863 upprättades ritning och virkesförslag och den 22 februari togs i ”Kommunalstämma för Welinge socken i Welinge kyrka” beslut om nybyggnationen av sockenstuga/fattigstuga. Herr patron August Andersson på Ettak var vid denna tid kommunalnämndens ordförande och skötte räkenskapen. Beslutet återfinns i protokollets § 3 enligt följande lydelse på moderniserad svenska:
+
+> Frågan om nybyggnad av Sockenstuga och Fattigstuga med mera därför, företogs nu till slutligt avgörande Kommunalnämnden framlade för stämman efter därom erhållet uppdrag, ritning och förslag till ifrågavarande byggnad.
+
+> Kommunalstämman beslöt:
+> 1, att denna byggnad skall uppföras på den socknen gemensamt tillhörande jorden där fattigstugan nu står.
+> 2, att antaga ritning med gillande av dels den av kommunalnämnden föreslagna förändring för Sockenstugans tillökning och dels andra förändringar som nämnden vidare kan finna ändamålsenliga och nyttiga för bygget.
+> 3, att timmerväggar anbringas till ett boningsrum på ena änden av vinden.
+> 4, att bygget ska företas i mitten av maj.
+> 5, att i början av nästa vinter ska från varje helt mantal framföras till bygget en bjälke, 12 alnar lång (ca 7,2 meter) och 9 tum i topp (ca 22,5 cm) och en sammanräknad längd av 104 alnar (ca 62,5 löpmeter) byggnadstimmer avskrätt till 6 1/2 tums tjocklek.......
+
+Texten i paragraf 3 går därefter inte att tyda ordagrant men det framgår att socknen även från sockenbor utan markinnehav fordrar bidrag med byggnadsmaterial. Dessutom anges att byggnadsarbetet ska utföras av socknens folk, indelade i olika ”matlag”.
+
+Längre fram i protokollet:
+
+> Gamla Fattigstugan ska försäljas på auktion till högstbjudande, att tillträdas den 1 mars och att avhämtas inom samma månads utgång, kommande år.
+
+## Huvudbry
+
+Kommunalstämmoprotokollet ovan ställer till en del huvudbry då vi vet att Nymans stuga knappast mätte 7,2 meter på längden och att huset definitivt inte hade en vind. I protokollet anges också att en fattigstuga redan finns sedan tidigare. De hypoteser som dessa fakta frambringar är:
+
+**Kan det vara så att protokollet avser byggnationen av det som sedan benämns småskolan och att själva bygget inte kunde genomföras förrän 10 år senare, när de svåra missväxtåren var över?**
+
+**Kan det vara så att Nymans stuga, som bekostades av socknens medel, användes som bostad för medellösa barnfamiljer samtidigt som delar av sockenstugan/skolan användes som boende för äldre par eller ensamstående?**
+
+Att skola och fattigstuga inrymdes i en och samma byggnad var en vanlig företeelse i landsbygdens socknar. Denna lösning fanns bland annat i Dimbo och Daretorp.
