@@ -18,13 +18,13 @@ I protokollen står också att Johan Nyman tilldelats 5 kronor i bidrag för upp
 
 Karin Larsson, född 1892, dotter i Mossagården, berättade att hon mindes två gummor som bodde i Nymans stuga. Det var Kajsa bortifrån Härjatrakten och Johanna som tidigare bott på ”Moses”. ”Moses” var en äldre backstuga som inte kunnat lokaliseras. Troligen låg stugan i backen ovanför kyrkan. Detta är den placering som Elias Andersson gett backstugan Moses.
 
-De båda kvinnorna, Kajsa och Johanna, finns med i kyrkböckerna som Anna Kajsa Andersdotter, piga från Lunsledet, se nr 136, och änkan Johanna Magnidotter. Kvinnorna avled i fattigstugan år 1907 respektive 1910. 
+De båda kvinnorna, Kajsa och Johanna, finns med i kyrkböckerna som Anna Kajsa Andersdotter, piga från Lunsledet, se nr 136, och änkan Johanna Magnidotter. Kvinnorna avled i fattigstugan år 1907 respektive 1910.
 
-Nymans stuga revs år 1917 och troligen kom timret till användning vid en utbyggnad av Prästegårdens ladugård. Först på 1920- talet bröts stugans grundstenar upp för att ingå i den nyare delen av kyrkogårdsmuren. En av dem som var med om att frakta bort grunden var Tage Lundberg, då brukare av Velinga Backgården ”Prästgården”.
+Nymans stuga revs år 1917 och troligen kom timret till användning vid en utbyggnad av Prästegårdens ladugård. Först på 1920-talet bröts stugans grundstenar upp för att ingå i den nyare delen av kyrkogårdsmuren. En av dem som var med om att frakta bort grunden var Tage Lundberg, då brukare av Velinga Backgården ”Prästgården”.
 
 Under en period lämnades posten in i fattigstugan och närboende fick gå in där och hämta sina brev och försändelser. Det var inte ovanligt att någon av de boende i socknens fattigstuga, mot en låg ersättning, hade att sköta posthanteringen. Om detta berättas från andra socknar i trakten.
 
-## Utdrag ur husförhörslängderna för Nymans stuga och fattigstugan åren 1895- 1917
+## Utdrag ur husförhörslängderna för Nymans stuga och fattigstugan åren 1895–1917
 
 Under dessa 22 år har totalt 34 personer bott i fattigstugan under längre eller kortare perioder.
 
@@ -35,12 +35,12 @@ Under dessa 22 år har totalt 34 personer bott i fattigstugan under längre elle
 - Arbetaren Lars Larsson född i Velinga 1827, avflyttad 1897
 - Hans hustru Gustava Andersdotter född i Velinga 1844, avflyttad 1896
 - Barnen
-  - Elisabeth född 1876, avflyttad 1896
-  - Lars Emil född 1880, avflyttad 1896
-  - Axel Enock född 1883, avflyttad 1900
-  - Anna Emerentia född 1890, avflyttad 1905
+    - Elisabeth född 1876, avflyttad 1896
+    - Lars Emil född 1880, avflyttad 1896
+    - Axel Enock född 1883, avflyttad 1900
+    - Anna Emerentia född 1890, avflyttad 1905
 - Augusta Larsdotter född 1860, kom till Velinga 1894 och ”försvann” 1916
-- Sonen	Gustav Adolf född 1890, avflyttad 1909
+- Sonen Gustav Adolf född 1890, avflyttad 1909
 - Gustava Andersdotter född 1844, avflyttad 1912
 - Hulda Olivia Sandberg född 1879, avflyttad 1912
 - Jonas Andersson född 1820, död 1903
@@ -62,20 +62,21 @@ Under dessa 22 år har totalt 34 personer bott i fattigstugan under längre elle
 - Axel Wilhelm Alexandersson född 1879, död 1914
 - Gustava Samuelsdotter (Samla-Stava) född 1839, tidigare bosatt i Stenbacken nr 16. Död 1914 av åldersavtagande i Haga sjukhem Tidaholm.
 - Pensionstagare Viktor Fingal född 1858.
-- Hans hustru 	Lovisa Pettersdotter född 1852. Viktor och Lovisa hade flyttat runt en del i bygden och bland annat bott i Påskabacken nr 28 och en backstuga på Backgårdens marker, nr 4 B.
+- Hans hustru Lovisa Pettersdotter född 1852. Viktor och Lovisa hade flyttat runt en del i bygden och bland annat bott i Påskabacken nr 28 och en backstuga på Backgårdens marker, nr 4 B.
 
 ## Kommunalstämmans beslut om ny fattigstuga
 
 År 1863 upprättades ritning och virkesförslag och den 22 februari togs i ”Kommunalstämma för Welinge socken i Welinge kyrka” beslut om nybyggnationen av sockenstuga/fattigstuga. Herr patron August Andersson på Ettak var vid denna tid kommunalnämndens ordförande och skötte räkenskapen. Beslutet återfinns i protokollets § 3 enligt följande lydelse på moderniserad svenska:
 
 > Frågan om nybyggnad av Sockenstuga och Fattigstuga med mera därför, företogs nu till slutligt avgörande Kommunalnämnden framlade för stämman efter därom erhållet uppdrag, ritning och förslag till ifrågavarande byggnad.
-
+>
 > Kommunalstämman beslöt:
-> 1, att denna byggnad skall uppföras på den socknen gemensamt tillhörande jorden där fattigstugan nu står.
-> 2, att antaga ritning med gillande av dels den av kommunalnämnden föreslagna förändring för Sockenstugans tillökning och dels andra förändringar som nämnden vidare kan finna ändamålsenliga och nyttiga för bygget.
-> 3, att timmerväggar anbringas till ett boningsrum på ena änden av vinden.
-> 4, att bygget ska företas i mitten av maj.
-> 5, att i början av nästa vinter ska från varje helt mantal framföras till bygget en bjälke, 12 alnar lång (ca 7,2 meter) och 9 tum i topp (ca 22,5 cm) och en sammanräknad längd av 104 alnar (ca 62,5 löpmeter) byggnadstimmer avskrätt till 6 1/2 tums tjocklek.......
+>
+> 1. att denna byggnad skall uppföras på den socknen gemensamt tillhörande jorden där fattigstugan nu står.
+> 2. att antaga ritning med gillande av dels den av kommunalnämnden föreslagna förändring för Sockenstugans tillökning och dels andra förändringar som nämnden vidare kan finna ändamålsenliga och nyttiga för bygget.
+> 3. att timmerväggar anbringas till ett boningsrum på ena änden av vinden.
+> 4. att bygget ska företas i mitten av maj.
+> 5. att i början av nästa vinter ska från varje helt mantal framföras till bygget en bjälke, 12 alnar lång (ca 7,2 meter) och 9 tum i topp (ca 22,5 cm) och en sammanräknad längd av 104 alnar (ca 62,5 löpmeter) byggnadstimmer avskrätt till 6 1/2 tums tjocklek.......
 
 Texten i paragraf 3 går därefter inte att tyda ordagrant men det framgår att socknen även från sockenbor utan markinnehav fordrar bidrag med byggnadsmaterial. Dessutom anges att byggnadsarbetet ska utföras av socknens folk, indelade i olika ”matlag”.
 
