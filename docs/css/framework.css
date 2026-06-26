@@ -6,3 +6,10 @@
 .modal-body {
     font-size: var(--bs-body-font-size);
 }
+
+blockquote {
+    margin: 1rem 0;
+    padding: 0 1rem;
+    border-left: 0.25rem solid var(--bs-border-color);
+    color: var(--bs-secondary-color);
+}

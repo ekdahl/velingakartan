@@ -1,46 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
 
 :root {
-	--bs-body-font-family: 'Fondamento', serif;
-	--bs-body-font-size: 0.875rem;
+	--bs-body-font-family: 'Lora', serif;
 }
 
 h1, .h1 {
-	font-size: 1.75rem;
+	font-size: 2rem;
 }
 
 h2, .h2 {
-	font-size: 1.5rem;
+	font-size: 1.75rem;
 }
 
 h3, .h3 {
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 }
 
 h4, .h4 {
-	font-size: 1rem;
+	font-size: 1.25rem;
 }
 
 h5, .h5 {
-	font-size: 0.875rem;
+	font-size: 1rem;
 }
 
 .fs-1 {
-	font-size: 1.75rem !important;
+	font-size: 2rem !important;
 }
 
 .fs-2 {
-	font-size: 1.5rem !important;
+	font-size: 1.75rem !important;
 }
 
 .fs-3 {
-	font-size: 1.25rem !important;
+	font-size: 1.5rem !important;
 }
 
 .fs-4 {
-	font-size: 1rem !important;
+	font-size: 1.25rem !important;
 }
 
 .fs-5 {
-	font-size: 0.875rem !important;
+	font-size: 1rem !important;
 }
