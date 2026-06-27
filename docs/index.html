@@ -20,7 +20,7 @@
 		const media = window.matchMedia('(prefers-color-scheme: dark)');
 		function updateTheme() {
 			document.documentElement.setAttribute('data-bs-theme', media.matches ? 'dark' : 'light');
-  		}
+		}
 		updateTheme(); // initial
 		media.addEventListener('change', updateTheme);
 	</script>
@@ -30,15 +30,15 @@
 	<main id="map" class="w-100 vh-100">
 
 	<div class="modal fade" id="placeModal" tabindex="-1" aria-hidden="true">
-		<div class="modal-dialog modal-lg modal-dialog-scrollable">
+		<div class="modal-dialog modal-xl modal-dialog-scrollable">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h1 class="modal-title fs-3" id="placeModalTitle">Info</h1>
+					<h1 class="modal-title fs-2" id="placeModalTitle">Info</h1>
 					<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      			</div>
+				</div>
 				<div class="modal-body" id="placeModalBody">Loading...</div>
 			</div>
-  		</div>
+		</div>
 	</div>
 
 	</main>

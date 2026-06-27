@@ -13,3 +13,7 @@ blockquote {
     border-left: 0.25rem solid var(--bs-border-color);
     color: var(--bs-secondary-color);
 }
+
+#placeModal .modal-body img {
+    max-width: 100%;
+}

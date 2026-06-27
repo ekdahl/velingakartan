@@ -301,6 +301,24 @@ function createLayer(cfg) {
   }
 }
 
+function resolveRelativeAssetsInHtml(html, baseUrl) {
+  const container = document.createElement('div');
+  container.innerHTML = html;
+
+  container.querySelectorAll('img[src], source[src], a[href], link[href]').forEach(element => {
+    const attributeName = element.hasAttribute('src') ? 'src' : 'href';
+    const value = element.getAttribute(attributeName);
+
+    if (!value || /^(?:[a-z]+:)?\/\//i.test(value) || value.startsWith('data:') || value.startsWith('mailto:') || value.startsWith('#')) {
+      return;
+    }
+
+    element.setAttribute(attributeName, new URL(value, baseUrl).href);
+  });
+
+  return container.innerHTML;
+}
+
 async function openPlaceModal(title, folder) {
   try {
     const path = new URL(`places/${folder}/text.html`, document.location).href;
@@ -311,9 +329,10 @@ async function openPlaceModal(title, folder) {
     }
 
     const html = await response.text();
+    const resolvedHtml = resolveRelativeAssetsInHtml(html, path);
 
     document.getElementById('placeModalTitle').textContent = title;
-    document.getElementById('placeModalBody').innerHTML = html;
+    document.getElementById('placeModalBody').innerHTML = resolvedHtml;
 
     const modal = new bootstrap.Modal(
       document.getElementById('placeModal')
